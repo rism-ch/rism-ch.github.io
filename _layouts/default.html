@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+    {% include head.html %}
 
-  <body>
+    <body class="blacklight-catalog blacklight-catalog-index">
 
-    {% include header.html %}
+        {% include header.html %}
+        
+        {% if page.search %}{% include search.html %}{% endif %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-  </body>
-
+        <div id="main-container" class="container">       
+            <div class="row">  
+        	    <div class="col-md-3 sidebar-offcanvas" id="sidebar" role="navigation">
+        		    <div class="pane pane-default">
+        			    
+                        {% include menu.html %}
+        		    
+                    </div>
+        	    </div>   
+                <div id="content" class="col-md-9 col-sm-8">
+                
+                    {{ content }}
+                    
+                </div>
+            </div>
+        </div>    
+    </body>
 </html>

@@ -1,0 +1,15 @@
+<div class="list-group">
+	{% for m in site.menu %}
+    <a class="list-group-item {% if page.active_section == m.id %}active{% endif %}" href="{{ site.baseurl }}/{{ m.id }}.html">{{  m.title }}</a>
+	{% endfor %}
+</div>
+
+{% for m in site.menu %}
+    {% if page.active_section == m.id %}
+    <div class="list-group sublist-group">
+        {% for s in m.submenu %}
+         <a class="list-group-item {% if page.active == s.id %}active{% endif %}" href="{{ site.baseurl }}/{{ s.id }}.html">{{  s.title }}</a>
+        {% endfor %}  
+    </div>
+    {% endif %}
+{% endfor %}

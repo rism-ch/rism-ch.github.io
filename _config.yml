@@ -1,14 +1,27 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+title: RISM Switzerland
+email: info@rism-ch.org
+description: "The Swiss RISM records music manuscripts and printed musical sources in Swiss libraries and archives"
+baseurl: ""
+resources: "localhost:3000"
+url: "http://www.rism-ch.org" 
+
+menu:
+    - title: "About us"
+      id: about_us
+      submenu:
+          - title: "About me"
+            id: about_me
+          - title: "About you"
+            id: about_you
+    - title: "Cataloging"
+      id: cataloging
+    - title: "Projects"
+      id: projects
+    - title: "Links / Documentation"
+      id: links
+    - title: "Musicians"
+      id: musicians
 
 # Build settings
 markdown: kramdown

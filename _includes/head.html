@@ -5,7 +5,11 @@
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
-
+   
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    
+    <link href="http://{{ site.resources }}/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+    <link href="/assets/application.css" media="screen" rel="stylesheet">
+    <script src="http://{{ site.resources }}/assets/application.js"></script>
+    
 </head>
