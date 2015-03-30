@@ -1,6 +1,6 @@
 <div class="list-group">
 	{% for m in site.menu %}
-    <a class="list-group-item {% if page.active_section == m.id %}active{% endif %}" href="{{ site.baseurl }}/{{ m.id }}.html">{{  m.title }}</a>
+    <a data-localize="menu.{{ m.id }}" class="list-group-item {% if page.active_section == m.id %}active{% endif %}" href="{{ site.baseurl }}/{{ m.id }}.html">{{  m.id }}</a>
 	{% endfor %}
 </div>
 
@@ -8,7 +8,7 @@
     {% if page.active_section == m.id %}
     <div class="list-group sublist-group">
         {% for s in m.submenu %}
-         <a class="list-group-item {% if page.active == s.id %}active{% endif %}" href="{{ site.baseurl }}/{{ s.id }}.html">{{  s.title }}</a>
+         <a data-localize="menu.{{ m.id }}_submenu.{{ s.id }}" class="list-group-item {% if page.active == s.id %}active{% endif %}" href="{{ site.baseurl }}/{{ s.id }}.html">{{  s.id }}</a>
         {% endfor %}  
     </div>
     {% endif %}

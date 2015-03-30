@@ -3,25 +3,21 @@ title: RISM Switzerland
 email: info@rism-ch.org
 description: "The Swiss RISM records music manuscripts and printed musical sources in Swiss libraries and archives"
 baseurl: ""
-resources: "localhost:3000"
+resources: "http://admin.rism-ch.org"
 url: "http://www.rism-ch.org" 
 
 menu:
-    - title: "About us"
-      id: about_us
+    - id: about_us
       submenu:
-          - title: "About me"
-            id: about_me
-          - title: "About you"
-            id: about_you
-    - title: "Cataloging"
-      id: cataloging
-    - title: "Projects"
-      id: projects
-    - title: "Links / Documentation"
-      id: links
-    - title: "Musicians"
-      id: musicians
+          - id: committee
+          - id: contact
+          - id: association
+          - id: central_redaction
+    - id: cataloging
+    - id: projects
+    - id: links
+    - id: musicians
 
 # Build settings
-markdown: kramdown
+#markdown: kramdown
+markdown: redcarpet

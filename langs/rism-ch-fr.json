@@ -1,7 +1,16 @@
 {
-  "title": "Tracker Pro XT Deluxo",
+  "title": "Test",
   "menu": {
-    "about_us": "Searcho...",
-    "button": "Vamos!"
+    "about_us": "Présentation",
+    "about_us_submenu" : {
+        "committee": "Commité directeur",
+        "contact": "Bureau / Contacts",
+        "association": "Association",
+        "central_redaction": "Rédaction centrale"
+      },
+    "cataloging": "Catalogage",
+    "projects": "Projets",
+    "links": "Liens / Documentation",
+    "musicians": "Musiciens"
   }
 }
