@@ -27,7 +27,17 @@
         </div>  
         
         <script>
-            $("[data-localize]").localize("langs/rism-ch", { language: "fr" });
+        	function getParameterByName(name) {
+        	    var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+        	    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+        	}
+
+    		var locale = getParameterByName("locale");
+    		if (!locale) {
+    			locale = {% if page.lang %}"{{ page.lang }}"{% else %}"en"{% endif %};
+    		}
+
+            $("[data-localize]").localize("langs/rism-ch", { language: locale });
         </script>
           
     </body>

@@ -1,0 +1,16 @@
+{
+  "title": "Test",
+  "menu": {
+    "about_us": "About us",
+    "about_us_submenu" : {
+        "committee": "Steering committee",
+        "contact": "Office / Contact",
+        "association": "Association",
+        "central_redaction": "RISM central office"
+      },
+    "cataloging": "Cataloging",
+    "projects": "Projects",
+    "links": "Liens / Documentation",
+    "musicians": "Musicians"
+  }
+}
