@@ -11,22 +11,21 @@
 
         <div id="main-container" class="container">       
             <div class="row">  
-        	    <div class="col-md-3 sidebar-offcanvas" id="sidebar" role="navigation">
-        		    <div class="pane pane-default">
+        	    <div class="col-md-3 col-sm-12 sidebar-offcanvas" id="sidebar" role="navigation">
         			    
-                        {% include menu.html %}
+                    {% include menu.html %}
         		    
-                    </div>
         	    </div>   
-                <div id="content" class="col-md-9 col-sm-8">
-                
+                <div id="content" class="col-md-9 col-sm-12">
+                        
                     {{ content }}
-                    
+                
                 </div>
             </div>
         </div>  
         
         <script>
+        
         	function getParameterByName(name) {
         	    var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
         	    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
@@ -38,6 +37,7 @@
     		}
 
             $("[data-localize]").localize("langs/rism-ch", { language: locale });
+            $("." + locale).show();
         </script>
           
     </body>
