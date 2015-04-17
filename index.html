@@ -84,7 +84,7 @@ lang: de
         $('#carousel .item').eq(rand).addClass("active");
         load_description( rand );
         
-		$( "#carousel" ).carousel( { interval: 4000 } );
+		$( "#carousel" ).carousel( { interval: 10000 } );
         $( "#carousel" ).on('slid.bs.carousel', function (e) {
             idx = $(".active", e.target).index();
             load_description(idx);

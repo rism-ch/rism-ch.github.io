@@ -38,8 +38,9 @@ body {
     border-radius: 4px;
 }
 
-#carousel-description p {
-    //display: none;
+// Fixing strange blinking text in Safari
+.carousel-inner {
+  -webkit-transform-style: preserve-3d;
 }
 
 .separator {
