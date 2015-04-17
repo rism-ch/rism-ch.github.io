@@ -55,6 +55,20 @@ lang: de
     {% include it/home.html %}
 </div>
 
+<div class="separator"></div>
+
+<h5 data-localize="news"></h5>
+
+{% for post in site.posts %}
+    <a href="{{ post.url }}">
+        <div class="lang en">{{ post.title.en }}</div>
+        <div class="lang de">{{ post.title.de }}</div>
+        <div class="lang fr">{{ post.title.fr }}</div>
+        <div class="lang it">{{ post.title.it }}</div>
+    </a>
+    {{ post.excerpt }}
+{% endfor %}
+
 <script type="text/javascript">
 
     function load_description( image ) {

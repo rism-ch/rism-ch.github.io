@@ -1,16 +1,17 @@
 {
-  "title": "Test",
-  "menu": {
-    "about_us": "Über uns",
-    "about_us_submenu" : {
-        "committee": "Vorstand",
-        "contact": "Arbeitstelle / Kontakt",
-        "association": "Verein",
-        "central_redaction": "RISM Zentralredaktion"
-      },
-    "cataloging": "Katalogisierung",
-    "projects": "Projekte",
-    "links": "Liens / Dokumentation",
-    "musicians": "Musiker"
-  }
+    "title": "Test",
+    "news": "News",
+    "menu": {
+        "about_us": "Über uns",
+        "about_us_submenu" : {
+                "committee": "Vorstand",
+                "contact": "Arbeitstelle / Kontakt",
+                "association": "Verein",
+                "central_redaction": "RISM Zentralredaktion"
+            },
+        "cataloging": "Katalogisierung",
+        "projects": "Projekte",
+        "links": "Liens / Dokumentation",
+        "musicians": "Musiker"
+    }
 }

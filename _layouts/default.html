@@ -36,7 +36,7 @@
     			locale = {% if page.lang %}"{{ page.lang }}"{% else %}"en"{% endif %};
     		}
 
-            $("[data-localize]").localize("langs/rism-ch", { language: locale });
+            $("[data-localize]").localize("/langs/rism-ch", { language: locale });
             $("." + locale).show();
         </script>
           
