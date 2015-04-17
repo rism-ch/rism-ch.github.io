@@ -1,0 +1,80 @@
+---
+layout: default
+search: true
+active_section: about_us
+active: about_me
+lang: de
+---
+
+<div class="row hidden-xs">
+    <div class="col-sm-7">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item">
+                    <img src="images/carousel/scanner.jpg">
+                </div>
+                <div class="item">
+                    <img src="images/carousel/muscat-3.jpg" border="2">
+                </div>
+                <div class="item">
+                    <img src="images/carousel/psalm-2.jpg">
+                </div>
+                <div class="item">
+                    <img src="images/carousel/shelf-2.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-description col-sm-5 lang en">
+            {% include en/home-images.html %}
+    </div>
+    <div class="carousel-description col-sm-5 lang de">
+        {% include de/home-images.html %}
+    </div>
+    <div class="carousel-description col-sm-5 lang fr">
+        {% include fr/home-images.html %}
+    </div>
+    <div class="carousel-description col-sm-5 lang it">
+        {% include it/home-images.html %}
+    </div>
+</div>
+
+<div class="separator hidden-xs"></div>
+
+<div class="lang en">
+    {% include en/home.html %}
+</div>
+<div class="lang de">
+    {% include de/home.html %}    
+</div>
+<div class="lang fr">
+    {% include fr/home.html %}
+</div>
+<div class="lang it">
+    {% include it/home.html %}
+</div>
+
+<script type="text/javascript">
+
+    function load_description( image ) {
+        $(".carousel-description").each(function(){
+            des = $("p", this).eq( image );
+            $("p", this).not(des).hide();
+            des.show();
+        });
+    }
+    
+	$( document ).ready(function() {
+        rand = Math.floor( Math.random() * $( "#carousel .item" ).length );
+        $('#carousel .item').eq(rand).addClass("active");
+        load_description( rand );
+        
+		$( "#carousel" ).carousel( { interval: 4000 } );
+        $( "#carousel" ).on('slid.bs.carousel', function (e) {
+            idx = $(".active", e.target).index();
+            load_description(idx);
+        });
+
+	});
+</script>
