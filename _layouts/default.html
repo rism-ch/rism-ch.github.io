@@ -31,10 +31,19 @@
         	    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
         	}
 
+            // First look at the parameter
     		var locale = getParameterByName("locale");
-    		if (!locale) {
-    			locale = {% if page.lang %}"{{ page.lang }}"{% else %}"en"{% endif %};
+    		if (locale) {
+                $.cookie('locale', locale, { expires: 30 });
     		}
+            // else reload cookie
+            else if ( $.cookie('locale') ) {
+                locale = $.cookie('locale');
+            }
+            // else default
+            else {
+                locale = {% if page.lang %}"{{ page.lang }}"{% else %}"en"{% endif %};
+            }
 
             $("[data-localize]").localize("/langs/rism-ch", { language: locale });
             $("." + locale).show();
