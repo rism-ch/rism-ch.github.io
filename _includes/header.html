@@ -1,31 +1,27 @@
 <div id="header-navbar" class="navbar navbar-inverse navbar-static-top" role="navigation">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#user-util-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="{{ site.baseurl }}/">R&#xE9;pertoire International des Sources Musicales</a>
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle btn collapsed" data-toggle="collapse" data-target="#user-util-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="slogan">
+                <a href="/">
+                    <span class="slogan-top">Répertoire International des Sources Musicales</span><br>
+                    <span class="slogan-bottom">Schweiz - Suisse - Svizzera - Switzerland</span>
+                </a>
+            </div>
     </div>
     <div class="collapse navbar-collapse" id="user-util-collapse">
-        <div id="opac-header" class="navbar-right">
+        <div class="navbar-right">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="""http://admin.rism-ch.org/bookmarks""">Bookmarks</a>
-                </li>
-                <li>
-                    <a href="http://admin.rism-ch.org/saved_searches">Saved Searches</a>
-                </li>
-                <li>
-                    <a href="http://admin.rism-ch.org/search_history">History</a>
-                </li>
-            </ul>
-            <ul class="nav navbar-nav">
-                <li>
-                    <a href="http://admin.rism-ch.org/logout">Logout</a>
+                <a href="/admin/logout">Logout</a>
                 </li>
             </ul>
         </div>
     </div>
+  </div>
 </div>

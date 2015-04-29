@@ -3,8 +3,53 @@
 ---
 @charset "utf-8";
 
-$bg-top: #fff;
-$bg-bottom: #eee;
+/**
+ * Following values were copied from the ./app/assets/stylesheets/variables.scss of Muscat
+ */
+
+$rismColor: #8C1515;
+$darkRismColor: #820000;
+
+$gray100: #000000;
+$gray95: #0E0D0B;
+$gray90: #1D1B17;
+$gray85: #2C2823;
+$gray80: #3A362F;
+$gray75: #49443B;
+$gray70: #585147;
+$gray65: #665F53;
+$gray60: #756C5F;
+$gray55: #847A6B;
+$gray50: #938877;
+$gray45: #9D9384;
+$gray40: #A89F92;
+$gray35: #B3AB9F;
+$gray30: #BEB7AD;
+$gray25: #C9C3BB;
+$gray20: #D3CFC8;
+$gray15: #DEDBD6;
+$gray10: #E9E7E3;
+$gray5: #F4F3F1;
+$gray0: #FFFFFF;
+
+$brand-primary: $rismColor;
+$navbar-inverse-bg: $gray90;
+$navbar-inverse-border: $gray100;
+$navbar-default-border: $gray15;
+$panel-default-heading-bg: $gray5;
+$navbar-default-link-hover-bg: $gray10;
+$navbar-default-link-color: $gray0;
+$navbar-default-link-active-color: $gray75;
+$navbar-default-link-active-bg: $gray10;
+
+$brandbar-height: 50px;
+$footer-height: 60px;
+
+$link-color: $rismColor;
+
+/**
+ * End of copied values
+ */
 
 .sublist-group a {
 	padding: 5px 15px;
@@ -12,25 +57,6 @@ $bg-bottom: #eee;
 
 .lang {
     display: none;
-}
-
-#content {
-    padding: 0px 20px;
-}
-
-html {
-    height: 100%;
-}
-
-body {
-    height: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background: -webkit-linear-gradient($bg-top, $bg-top, $bg-top, $bg-bottom); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient($bg-top, $bg-top, $bg-top, $bg-bottom); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient($bg-top, $bg-top, $bg-top, $bg-bottom); /* For Firefox 3.6 to 15 */
-    background: linear-gradient($bg-top, $bg-top, $bg-top, $bg-bottom); /* Standard syntax */
 }
 
 .carousel img {
@@ -47,4 +73,10 @@ body {
     border-top: 5px solid #cdcdcd;
     margin-top: 20px;
     padding-top: 20px;
+}
+
+.list-group > a.active {
+    color: $gray90;
+    background-color: $gray15;
+    border-color: $gray25;
 }
