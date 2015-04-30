@@ -1,6 +1,7 @@
 {
     "title": "Test",
     "news": "Actualités",
+    "select_menu": "Séléctionner...",
     "menu": {
         "about_us": "Présentation",
         "about_us_submenu" : {

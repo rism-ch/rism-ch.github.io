@@ -51,8 +51,48 @@ $link-color: $rismColor;
  * End of copied values
  */
 
+.list-group > a.active {
+    color: $gray90;
+    background-color: $gray15;
+    border-color: $gray25;
+}
+
+.list-group > a.active:hover {
+    color: $gray90;
+    background-color: $gray15;
+    border-color: $gray25;
+}
+
 .sublist-group a {
 	padding: 5px 15px;
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 1px dotted $gray85;
+    radius: 0px;
+    text-decoration: none;
+}
+
+.sublist-group > .list-group-item:last-child {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.sublist-group > a.active {
+    color: $rismColor;
+    border-bottom: 1px dotted $gray85;
+    background-color: transparent;
+}
+
+.sublist-group > a:hover {
+    color: $rismColor;
+    border-bottom: 1px dotted $gray85;
+    background-color: transparent;
+}
+
+.sublist-group > a.active:hover {
+    color: $rismColor;
+    border-bottom: 1px dotted $gray85;
+    background-color: transparent;
 }
 
 .lang {
@@ -61,7 +101,6 @@ $link-color: $rismColor;
 
 .carousel img {
     border: 1px solid #ddd;
-    border-radius: 4px;
 }
 
 // Fixing strange blinking text in Safari
@@ -75,8 +114,10 @@ $link-color: $rismColor;
     padding-top: 20px;
 }
 
-.list-group > a.active {
-    color: $gray90;
-    background-color: $gray15;
-    border-color: $gray25;
+/**
+ *
+ */
+
+#main-container {
+    padding-top: 15px;
 }
