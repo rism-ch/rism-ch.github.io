@@ -48,6 +48,8 @@
             }
 
             $("[data-localize]").localize("/langs/rism-ch", { language: locale });
+            // update the parameter to be passed to the opac
+            $("#search_locale").attr( "value", locale );
             $("." + locale).show();
         </script>
           

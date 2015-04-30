@@ -4,22 +4,22 @@
             <img src="/images/logo-large-ch.png">
         </div>
         <div class="col-md-9 search-navbar-text">
-              <form accept-charset="UTF-8" action="http://localhost:3000/" class="search-query-form clearfix navbar-form" method="get">
+              <form accept-charset="UTF-8" action="{{ site.search_url }}" class="search-query-form clearfix navbar-form" method="get">
                   <div style="display:none">
                       <input name="utf8" type="hidden" value="✓">
+                      <input id="search_locale" name="locale" type="hidden" value="fr">
                   </div>
-                  <label for="search_field" class="sr-only">Search in</label>
                   <select class="search_field form-control" id="search_field" name="search_field" title="Targeted search options">
-                      <option selected="selected" value="title">Title</option>
-                      <option value="composer">Composer</option>
+                      {% for s in site.search_options %}
+                      <option value="{{ s[1] }}" data-localize="{{ s[0] }}">{{ s[0] }}</option>
+                      {% endfor %}
                   </select>
-                  <span class="sr-only">for</span>
                   <div class="input-group search-input-group">
                       <label for="q" class="sr-only">search for</label>
-                      <input class="search_q q form-control" id="q" name="q" placeholder="Search..." type="text" value="Bach">
+                      <input class="search_q q form-control" id="q" name="q" placeholder="..." type="text" value="">
                       <span class="input-group-btn">
                           <button type="submit" class="btn btn-primary search-btn" id="search">
-                              <span class="submit-search-text">Search</span>
+                              <span class="submit-search-text" data-localize="search"></span>
                               <span class="glyphicon glyphicon-search"></span>
                           </button>
                       </span>

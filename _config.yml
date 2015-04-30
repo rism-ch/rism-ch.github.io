@@ -17,6 +17,11 @@ menu:
     - id: projects
     - id: links
     - id: musicians
+    
+search_options:
+    - ["search_title", "title"]
+    - ["search_composer", "composer"]
+search_url: "http://www.rism-ch.org/catalog/"
 
 # Build settings
 #markdown: kramdown

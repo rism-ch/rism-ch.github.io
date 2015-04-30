@@ -14,5 +14,8 @@
         "projects": "Projetti",
         "links": "Liens / Documentazione",
         "musicians": "Musicisti"
-    }
+    },
+    "search": "Search",
+    "search_title": "Title",
+    "search_composer": "Composer"
 }
