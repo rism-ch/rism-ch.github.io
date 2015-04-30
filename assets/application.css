@@ -124,187 +124,247 @@ $gray0: #FFFFFF;
   padding-top: 10px;
   padding-left: 70px;
 }
+/* line 58, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+#search-navbar .search-navbar-right {
+  padding-right: 0px;
+}
 @media screen and (min-width: 768px) {
-  /* line 58, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+  /* line 61, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+  #search-navbar .search-navbar-locale {
+    padding-top: 5px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 61, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+  #search-navbar .search-navbar-locale {
+    padding-top: 0px;
+    padding-bottom: 6px;
+  }
+}
+/* line 69, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+#search-navbar .search-navbar-locale a {
+  border-right: solid 1px #49443b;
+  padding-right: 4px;
+  color: #49443b;
+}
+/* line 74, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+#search-navbar .search-navbar-locale a:last-child {
+  border-right: none;
+  padding-right: 0px;
+}
+@media screen and (min-width: 768px) {
+  /* line 79, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
   #search-navbar .search-navbar-text {
     padding-top: 35px;
   }
 }
-/* line 64, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 84, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 #search-navbar .search-input-group {
   width: 500px;
 }
 @media (max-width: 768px) {
-  /* line 64, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+  /* line 84, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
   #search-navbar .search-input-group {
     width: auto;
   }
 }
-/* line 71, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 91, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 #search-navbar .search-query-form {
   padding-left: 0;
 }
 
-/* line 78, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 98, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 button#search {
   background-color: #49443b;
   border-color: #49443b;
 }
-/* line 81, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 101, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 button#search .glyphicon-search {
   color: #756c5f;
 }
 
-/* line 88, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 108, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 body {
   background-color: #f4f3f1;
   font-family: Helvetica, Arial, sans-serif;
 }
-/* line 91, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 111, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 body #main-container {
   margin-bottom: 60px;
 }
 
-/* line 96, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 116, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 a {
   color: #8c1515;
 }
-/* line 98, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 118, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 a:active, a:hover {
   color: #8c1515;
 }
 
-/* line 104, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 124, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 .sidenav a, p a, .content-block p > a, ol li > a {
   color: #8c1515;
 }
-/* line 106, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 126, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 .sidenav a:active, .sidenav a:hover, p a:active, p a:hover, .content-block p > a:active, .content-block p > a:hover, ol li > a:active, ol li > a:hover {
   color: #8c1515;
   text-decoration: dotted;
 }
 
-/* line 113, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 133, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 p {
   color: #555555;
   line-height: 1.6;
   padding: 0 0 11px;
 }
 
-/* line 119, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 139, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 #main-container h1 {
   font-size: 26px;
   margin-top: 8px;
 }
 
-/* line 125, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 145, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 h2 {
   font-size: 20px;
   border-bottom: 1px solid #eae9e6;
   padding-bottom: 5px;
 }
 
-/* line 131, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 151, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 .pagination > .active > a, .pagination > .active > a:hover {
   background-color: #5f574f;
   border-color: black;
 }
 
 @media (max-width: 768px) {
-  /* line 137, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+  /* line 157, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
   .facets > div > h4 {
     padding-left: 20px;
   }
 }
 
-/* line 143, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 163, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 .top-panel-heading {
   padding-left: 0;
 }
 
-/* line 147, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 167, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 h5.panel-title > a {
   color: #1d1b17;
 }
-/* line 149, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 169, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 h5.panel-title > a:active, h5.panel-title > a:hover {
   color: #8c1515;
   text-decoration: none;
 }
 
-/* line 156, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 176, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 .panel-default > .panel-heading {
   color: #1d1b17;
   background-color: #dedbd6;
 }
 
-/* line 161, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 181, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 .panel-success > .panel-heading, .facet_limit-active > .panel-heading, .facet_limit-active > .panel-heading {
   color: #1d1b17;
   background-color: #dedbd6;
   border-color: #c9c3bb;
 }
 
-/* line 167, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 187, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 .panel-success, .facet_limit-active, .facet_limit-active {
   border-color: #c9c3bb;
 }
 
-/* line 171, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 191, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 .facet_limit-active > .panel-heading + .panel-collapse > .panel-body {
   border-color: #c9c3bb;
 }
 
-/* line 175, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 195, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 .facet-values li .selected {
   color: #8c1515;
 }
 
-/* line 180, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 200, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 .dropdown-toggle.btn-default:hover, .dropdown-toggle.facets-toggle:hover, .dropdown-toggle.btn-default:active, .dropdown-toggle.facets-toggle:active {
   background-color: #dedbd6;
 }
 
-/* line 184, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 204, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 .dropdown-menu > li > a, .dropdown-menu > li > a {
   color: #8c1515;
 }
-/* line 186, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 206, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   background-color: #e9e7e3;
   color: #8c1515;
 }
 
-/* line 193, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 213, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 form.bookmark_toggle {
   display: none;
 }
 
-/* line 197, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 217, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 h5.index_title {
   font-size: 16px;
 }
-/* line 199, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 219, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 h5.index_title a {
   border-bottom: 1px dotted #2c2823;
   text-decoration: none;
 }
 
-/* line 208, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 228, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 .blacklight-catalog-show #content {
   width: 100%;
 }
-/* line 212, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 232, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 .blacklight-catalog-show #sidebar {
   display: none;
 }
 
-/* line 219, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 239, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+#document .panel {
+  background-color: transparent;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #dedbd6;
+  box-shadow: none;
+  margin-bottom: 0px;
+}
+/* line 245, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+#document .panel .attributes_table td, #document .panel .attributes_table th {
+  padding-top: 5px !important;
+  vertical-align: top;
+}
+@media (max-width: 768px) {
+  /* line 249, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+  #document .panel .attributes_table th:first-child {
+    min-width: 100px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 249, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+  #document .panel .attributes_table th:first-child {
+    min-width: 200px;
+    padding-right: 30px;
+  }
+}
+/* line 260, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+#document .panel:last-child {
+  border-bottom: 0px;
+}
+
+/* line 266, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 footer {
   background-color: #d3cfc8;
   border-top: 1px solid #beb7ad;
 }
-/* line 222, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 269, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 footer .rism-footer-text {
   min-height: 60px;
   padding: 8px 0px;
@@ -9457,187 +9517,247 @@ $gray0: #FFFFFF;
   padding-top: 10px;
   padding-left: 70px;
 }
+/* line 58, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+#search-navbar .search-navbar-right {
+  padding-right: 0px;
+}
 @media screen and (min-width: 768px) {
-  /* line 58, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+  /* line 61, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+  #search-navbar .search-navbar-locale {
+    padding-top: 5px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 61, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+  #search-navbar .search-navbar-locale {
+    padding-top: 0px;
+    padding-bottom: 6px;
+  }
+}
+/* line 69, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+#search-navbar .search-navbar-locale a {
+  border-right: solid 1px #49443b;
+  padding-right: 4px;
+  color: #49443b;
+}
+/* line 74, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+#search-navbar .search-navbar-locale a:last-child {
+  border-right: none;
+  padding-right: 0px;
+}
+@media screen and (min-width: 768px) {
+  /* line 79, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
   #search-navbar .search-navbar-text {
     padding-top: 35px;
   }
 }
-/* line 64, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 84, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 #search-navbar .search-input-group {
   width: 500px;
 }
 @media (max-width: 768px) {
-  /* line 64, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+  /* line 84, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
   #search-navbar .search-input-group {
     width: auto;
   }
 }
-/* line 71, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 91, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 #search-navbar .search-query-form {
   padding-left: 0;
 }
 
-/* line 78, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 98, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 button#search {
   background-color: #49443b;
   border-color: #49443b;
 }
-/* line 81, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 101, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 button#search .glyphicon-search {
   color: #756c5f;
 }
 
-/* line 88, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 108, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 body {
   background-color: #f4f3f1;
   font-family: Helvetica, Arial, sans-serif;
 }
-/* line 91, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 111, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 body #main-container {
   margin-bottom: 60px;
 }
 
-/* line 96, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 116, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 a {
   color: #8c1515;
 }
-/* line 98, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 118, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 a:active, a:hover {
   color: #8c1515;
 }
 
-/* line 104, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 124, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 .sidenav a, p a, .content-block p > a, ol li > a {
   color: #8c1515;
 }
-/* line 106, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 126, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 .sidenav a:active, .sidenav a:hover, p a:active, p a:hover, .content-block p > a:active, .content-block p > a:hover, ol li > a:active, ol li > a:hover {
   color: #8c1515;
   text-decoration: dotted;
 }
 
-/* line 113, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 133, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 p {
   color: #555555;
   line-height: 1.6;
   padding: 0 0 11px;
 }
 
-/* line 119, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 139, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 #main-container h1 {
   font-size: 26px;
   margin-top: 8px;
 }
 
-/* line 125, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 145, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 h2 {
   font-size: 20px;
   border-bottom: 1px solid #eae9e6;
   padding-bottom: 5px;
 }
 
-/* line 131, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 151, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 .pagination > .active > a, .pagination > .active > a:hover {
   background-color: #5f574f;
   border-color: black;
 }
 
 @media (max-width: 768px) {
-  /* line 137, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+  /* line 157, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
   .facets > div > h4 {
     padding-left: 20px;
   }
 }
 
-/* line 143, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 163, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 .top-panel-heading {
   padding-left: 0;
 }
 
-/* line 147, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 167, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 h5.panel-title > a {
   color: #1d1b17;
 }
-/* line 149, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 169, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 h5.panel-title > a:active, h5.panel-title > a:hover {
   color: #8c1515;
   text-decoration: none;
 }
 
-/* line 156, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 176, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 .panel-default > .panel-heading {
   color: #1d1b17;
   background-color: #dedbd6;
 }
 
-/* line 161, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 181, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 .panel-success > .panel-heading, .facet_limit-active > .panel-heading {
   color: #1d1b17;
   background-color: #dedbd6;
   border-color: #c9c3bb;
 }
 
-/* line 167, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 187, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 .panel-success, .facet_limit-active {
   border-color: #c9c3bb;
 }
 
-/* line 171, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 191, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 .facet_limit-active > .panel-heading + .panel-collapse > .panel-body {
   border-color: #c9c3bb;
 }
 
-/* line 175, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 195, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 .facet-values li .selected {
   color: #8c1515;
 }
 
-/* line 180, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 200, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 .dropdown-toggle.btn-default:hover, .dropdown-toggle.btn-default:active {
   background-color: #dedbd6;
 }
 
-/* line 184, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 204, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 .dropdown-menu > li > a, .dropdown-menu > li > a {
   color: #8c1515;
 }
-/* line 186, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 206, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   background-color: #e9e7e3;
   color: #8c1515;
 }
 
-/* line 193, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 213, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 form.bookmark_toggle {
   display: none;
 }
 
-/* line 197, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 217, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 h5.index_title {
   font-size: 16px;
 }
-/* line 199, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 219, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 h5.index_title a {
   border-bottom: 1px dotted #2c2823;
   text-decoration: none;
 }
 
-/* line 208, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 228, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 .blacklight-catalog-show #content {
   width: 100%;
 }
-/* line 212, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 232, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 .blacklight-catalog-show #sidebar {
   display: none;
 }
 
-/* line 219, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 239, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+#document .panel {
+  background-color: transparent;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #dedbd6;
+  box-shadow: none;
+  margin-bottom: 0px;
+}
+/* line 245, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+#document .panel .attributes_table td, #document .panel .attributes_table th {
+  padding-top: 5px !important;
+  vertical-align: top;
+}
+@media (max-width: 768px) {
+  /* line 249, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+  #document .panel .attributes_table th:first-child {
+    min-width: 100px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 249, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+  #document .panel .attributes_table th:first-child {
+    min-width: 200px;
+    padding-right: 30px;
+  }
+}
+/* line 260, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+#document .panel:last-child {
+  border-bottom: 0px;
+}
+
+/* line 266, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 footer {
   background-color: #d3cfc8;
   border-top: 1px solid #beb7ad;
 }
-/* line 222, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
+/* line 269, /Users/laurent/projects/muscat_git/app/assets/stylesheets/rism_theme.scss */
 footer .rism-footer-text {
   min-height: 60px;
   padding: 8px 0px;
