@@ -36,15 +36,18 @@
             // First look at the parameter
     		var locale = getParameterByName("locale");
     		if (locale) {
-                $.cookie('locale', locale, { expires: 30 });
+                $.cookie('locale', locale, { expires: 30, path: '/' });
+                //console.log( "param: " + locale );
     		}
             // else reload cookie
             else if ( $.cookie('locale') ) {
                 locale = $.cookie('locale');
+                //console.log(  "cookie: " + locale );
             }
             // else default
             else {
                 locale = {% if page.lang %}"{{ page.lang }}"{% else %}"en"{% endif %};
+                //console.log(  "default: " + locale );
             }
 
             $("[data-localize]").localize("/langs/rism-ch", { language: locale });
