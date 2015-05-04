@@ -95,10 +95,31 @@ $link-color: $rismColor;
     background-color: transparent;
 }
 
+/** For the content **/
+#content {
+    h4 {
+        margin-top: 30px;
+    }
+    table.about_us tr {
+        border-bottom: 1px solid $gray35;
+        td {
+            padding: 20px 0px;
+        }
+        td:not(:first-child) {
+            padding-left: 10px; 
+        }
+    }
+    table.about_us tr:last-child {
+        border-bottom: transparent;
+    }
+}
+
+/** For translations **/
 .lang {
     display: none;
 }
 
+/** For the carousel **/
 .carousel img {
     border: 1px solid #ddd;
 }
