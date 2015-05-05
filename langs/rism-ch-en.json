@@ -16,6 +16,7 @@
         "musicians": "Musicians"
     },
     "search": "Search",
+    "search_placeholder": "Search...",
     "search_title": "Title",
     "search_composer": "Composer"
 }
