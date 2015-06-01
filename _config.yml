@@ -13,7 +13,19 @@ menu:
           - id: contact
           - id: association
           - id: central_redaction
+            url: "http://www.rism.info"
+            blank: true
     - id: cataloging
+      submenu:
+          - id: cataloging/bern-bb
+          - id: cataloging/frey-gryn
+          - id: cataloging/snb
+          - id: cataloging/fischingen
+          - id: cataloging/munzingeriana
+          - id: cataloging/zhb-lu
+          - id: cataloging/sarnen
+          - id: cataloging/repertorium
+          - id: past-cataloging-projects
     - id: projects
     - id: links
     - id: musicians
