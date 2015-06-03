@@ -1,10 +1,19 @@
 # Site settings
-title: Répertoire International des Sources Musciales
+title: Répertoire International des Sources Musicales
 email: info@rism-ch.org
 description: "The Swiss RISM records music manuscripts and printed musical sources in Swiss libraries and archives"
 baseurl: ""
 resources: "http://admin.rism-ch.org"
 url: "http://www.rism-ch.org"
+
+top_menu:
+    - id: advanced_search
+      url: "http://129.194.18.233/advanced/"
+    - id: search_history
+      url: "http://129.194.18.233/search_history"
+    - id: help
+    - id: contact
+    - id: index
 
 menu:
     - id: about_us
@@ -31,9 +40,10 @@ menu:
     - id: musicians
     
 search_options:
+    - ["search_any_field", "any_field"]
     - ["search_title", "title"]
     - ["search_composer", "composer"]
-search_url: "http://www.rism-ch.org/catalog/"
+search_url: "http://129.194.18.233/catalog/"
 
 # Build settings
 #markdown: kramdown

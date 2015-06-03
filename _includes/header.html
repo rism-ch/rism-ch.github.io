@@ -17,9 +17,15 @@
     <div class="collapse navbar-collapse" id="user-util-collapse">
         <div class="navbar-right">
             <ul class="nav navbar-nav">
-                <li>
-                <a href="/admin/logout">Logout</a>
-                </li>
+                {% for s in site.top_menu %}
+                    {% capture link %}{{ site.baseurl }}/{{ s.id }}.html{% endcapture %}
+                    {% if s.url.size > 0 %}
+                        {% capture link %}{{ s.url }}{% endcapture %}
+                    {% endif %}
+                    <li>
+                        <a data-localize="top_menu.{{ s.id }}" href="{{ link }}">&nbsp;</a>
+                    </li>
+                {% endfor %}
             </ul>
         </div>
     </div>
