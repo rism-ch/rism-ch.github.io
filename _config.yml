@@ -45,6 +45,9 @@ menu:
           - id: projects/onstage-gc
           - id: past-projects
     - id: links
+    - id: finding_aid
+      submenu:
+          - id: links/ch_people_a_e
     - id: musicians
     
 search_options:

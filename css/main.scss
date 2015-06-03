@@ -118,6 +118,23 @@ $link-color: $rismColor;
     }
 }
 
+/** Links **/
+table.links-nav {
+    margin-bottom: 10px;
+}
+table.links-nav-bottom {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+table.links {
+    td.letter {
+        padding: 12px 0px 6px 0px;
+    }
+    td.link {
+        width: 70%;
+    }
+}
+
 /** For translations **/
 .lang {
     display: none;

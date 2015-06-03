@@ -39,7 +39,11 @@
             "projects/onstage-gc": "OnStage - Genf",
             "past-projects": "Abgeschlossene Projekte"
             },
-        "links": "Liens / Dokumentation",
+        "links": "Links / Dokumentation",
+        "finding_aid": "Findmittel",
+        "finding_aid_submenu": {
+            "links/ch_people_a_e": "Bestände – Personen"
+        },
         "musicians": "Musiker"
     },
     "search": "Search",
