@@ -17,6 +17,7 @@
     },
     "search": "Chercher",
     "search_placeholder": "Rechercher...",
+    "search_any_field": "N'importe quel champ",
     "search_title": "Titre",
     "search_composer": "Compositeur"
 }
