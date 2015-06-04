@@ -9,12 +9,12 @@
         "index": "Home"
     },
     "menu": {
-        "about_us": "Über uns",
-        "about_us_submenu" : {
+        "about-us": "Über uns",
+        "about-us_submenu" : {
             "committee": "Vorstand",
             "contact": "Arbeitstelle / Kontakt",
             "association": "Verein",
-            "central_redaction": "RISM Zentralredaktion"
+            "central-redaction": "RISM Zentralredaktion"
         },
         "cataloging": "Katalogisierung",
         "cataloging_submenu" : {
@@ -40,28 +40,28 @@
             },
         "links": "Links / Dokumentation",
         "links_submenu": {
-            "links/org_international": "Internationale Organisationen",
-            "links/org_ch": "Schweizer Institutionen",
+            "links/org-international": "Internationale Organisationen",
+            "links/org-ch": "Schweizer Institutionen",
             "links/dictionaries": "Lexika und Wörterbücher",
-            "links/music_dictionaries": "Musiklexika",
-            "links/finding_aid": "Findmittel",
-            "links/source_catalogues": "Quellenverzeichnisse",
+            "links/music-dictionaries": "Musiklexika",
+            "links/finding-aid": "Findmittel",
+            "links/source-catalogues": "Quellenverzeichnisse",
             "links/digitisation": "Digitalisierte Quellen",
             "links/repertoire": "Repertoire",
             "links/editions": "Online-Editionen",
             "links/varia": "Varia"
         },
-        "finding_aid": "Findmittel",
-        "finding_aid_submenu": {
-            "links/ch_people_a_e": "Bestände – Personen",
-            "links/ch_institutions": "Bestände – Institutionen"
+        "finding-aid": "Findmittel",
+        "finding-aid_submenu": {
+            "links/ch-people-a-e": "Bestände – Personen",
+            "links/ch-institutions": "Bestände – Institutionen"
         },
         "publications": "Publikationen",
         "publications_submenu" : {
             "d-lib": "RISM Digital Library",
             "inventories": "Historical Music Inventories",
             "psmd": "Printed Sacred Music",
-            "publication_list": "Weitere Publikationen"
+            "publication-list": "Weitere Publikationen"
         },
         "cds": "CDs",
         "cds_submenu": {

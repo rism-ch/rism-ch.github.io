@@ -16,12 +16,12 @@ top_menu:
     - id: index
 
 menu:
-    - id: about_us
+    - id: about-us
       submenu:
           - id: committee
           - id: contact
           - id: association
-          - id: central_redaction
+          - id: central-redaction
             url: "http://www.rism.info"
             blank: true
     - id: cataloging
@@ -46,20 +46,20 @@ menu:
           - id: past-projects
     - id: links
       submenu:
-          - id: links/org_international
-          - id: links/org_ch
+          - id: links/org-international
+          - id: links/org-ch
           - id: links/dictionaries
-          - id: links/music_dictionaries
-          - id: links/finding_aid
-          - id: links/source_catalogues
+          - id: links/music-dictionaries
+          - id: links/finding-aid
+          - id: links/source-catalogues
           - id: links/digitisation
           - id: links/repertoire
           - id: links/editions
           - id: links/varia
-    - id: finding_aid
+    - id: finding-aid
       submenu:
-          - id: links/ch_people_a_e
-          - id: links/ch_institutions
+          - id: links/ch-people-a-e
+          - id: links/ch-institutions
     - id: publications
       submenu:
           - id: d-lib

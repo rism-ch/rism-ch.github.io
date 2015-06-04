@@ -2,8 +2,8 @@
     "news": "News",
     "select_menu": "Select...",
     "menu": {
-        "about_us": "Presentazione",
-        "about_us_submenu" : {
+        "about-us": "Presentazione",
+        "about-us_submenu" : {
             "committee": "Comitato",
             "contact": "Ufficio / Contatti",
             "association": "Associazione",

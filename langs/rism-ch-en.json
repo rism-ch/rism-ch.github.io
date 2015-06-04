@@ -2,12 +2,12 @@
     "news": "News",
     "select_menu": "Select...",
     "menu": {
-        "about_us": "About us",
-        "about_us_submenu" : {
+        "about-us": "About us",
+        "about-us_submenu" : {
             "committee": "Steering committee",
             "contact": "Office / Contact",
             "association": "Association",
-            "central_redaction": "RISM central office"
+            "central-redaction": "RISM central office"
             },
         "cataloging": "Cataloging",
         "projects": "Projects",
