@@ -56,6 +56,17 @@
             "links/ch_people_a_e": "Bestände – Personen",
             "links/ch_institutions": "Bestände – Institutionen"
         },
+        "publications": "Publikationen",
+        "publications_submenu" : {
+            "d-lib": "RISM Digital Library",
+            "inventories": "Historical Music Inventories",
+            "psmd": "Printed Sacred Music",
+            "publication_list": "Weitere Publikationen"
+        },
+        "cds": "CDs",
+        "cds_submenu": {
+            "cd-swiss-monasteries": "Schweizer Klöster"
+        },
         "musicians": "Musiker"
     },
     

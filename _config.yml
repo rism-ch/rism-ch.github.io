@@ -60,7 +60,17 @@ menu:
       submenu:
           - id: links/ch_people_a_e
           - id: links/ch_institutions
-    - id: musicians
+    - id: publications
+      submenu:
+          - id: d-lib
+          - id: inventories
+            url: "http://inventories.rism-ch.org"
+          - id: psmd
+            url: "http://www.printed-sacred-music.org"
+          - id: publication-list
+    - id: cds
+      submenu:
+          - id: cd-swiss-monasteries
     
 search_options:
     - ["search_any_field", "any_field"]
