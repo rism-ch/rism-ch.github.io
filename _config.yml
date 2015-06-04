@@ -71,3 +71,6 @@ search_url: "http://129.194.18.233/catalog/"
 # Build settings
 #markdown: kramdown
 markdown: redcarpet
+
+gems:
+  - jekyll-redirect-from
