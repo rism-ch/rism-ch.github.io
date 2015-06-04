@@ -40,12 +40,39 @@
             "past-projects": "Abgeschlossene Projekte"
             },
         "links": "Links / Dokumentation",
+        "links_submenu": {
+            "links/org_international": "Internationale Organisationen",
+            "links/org_ch": "Schweizer Institutionen",
+            "links/dictionaries": "Lexika und Wörterbücher",
+            "links/music_dictionaries": "Musiklexika",
+            "links/finding_aid": "Findmittel",
+            "links/source_catalogues": "Quellenverzeichnisse",
+            "links/digitisation": "Digitalisierte Quellen",
+            "links/repertoire": "Repertoire",
+            "links/editions": "Online-Editionen",
+            "links/varia": "Varia"
+        },
         "finding_aid": "Findmittel",
         "finding_aid_submenu": {
             "links/ch_people_a_e": "Bestände – Personen"
         },
         "musicians": "Musiker"
     },
+    
+    "finding_aid": {
+        "music": "Musik",
+        "general": "Allgemein",
+        "swiss": "Schweiz",
+        "meta_catalogues": "Metakataloge",
+        "historic_catalogues": "Historische Kataloge",
+        "music_theatre": "Musiktheater",
+        "liturgical_music": "Liturgische Gesänge",
+        "vocal_music": "Vokalmusik",
+        "instrumental_music": "Instrumentalmusik",
+        "general_edition": "Sammlungen",
+        "composer_edition": "Einzelne Komponisten"
+    },
+
     "search": "Search",
     "search_placeholder": "Suchen...",
     "search_any_field": "Irgendein Feld",

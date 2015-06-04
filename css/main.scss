@@ -118,15 +118,19 @@ $link-color: $rismColor;
     }
 }
 
-/** Links **/
-table.links-nav {
+/** Links and finding aids **/
+table.links {
+    margin-bottom: 30px;
+}
+
+table.finding-aid-nav {
     margin-bottom: 10px;
 }
-table.links-nav-bottom {
+table.finding-aid-nav-bottom {
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
-table.links {
+table.finding-aid {
     td.letter {
         padding: 12px 0px 6px 0px;
     }

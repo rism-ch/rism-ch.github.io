@@ -45,6 +45,17 @@ menu:
           - id: projects/onstage-gc
           - id: past-projects
     - id: links
+      submenu:
+          - id: links/org_international
+          - id: links/org_ch
+          - id: links/dictionaries
+          - id: links/music_dictionaries
+          - id: links/finding_aid
+          - id: links/source_catalogues
+          - id: links/digitisation
+          - id: links/repertoire
+          - id: links/editions
+          - id: links/varia
     - id: finding_aid
       submenu:
           - id: links/ch_people_a_e
