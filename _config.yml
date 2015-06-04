@@ -59,6 +59,7 @@ menu:
     - id: finding_aid
       submenu:
           - id: links/ch_people_a_e
+          - id: links/ch_institutions
     - id: musicians
     
 search_options:

@@ -54,7 +54,8 @@
         },
         "finding_aid": "Findmittel",
         "finding_aid_submenu": {
-            "links/ch_people_a_e": "Bestände – Personen"
+            "links/ch_people_a_e": "Bestände – Personen",
+            "links/ch_institutions": "Bestände – Institutionen"
         },
         "musicians": "Musiker"
     },
