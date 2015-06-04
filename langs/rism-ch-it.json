@@ -5,11 +5,11 @@
     "menu": {
         "about_us": "Presentazione",
         "about_us_submenu" : {
-                "committee": "Comitato",
-                "contact": "Ufficio / Contatti",
-                "association": "Associazione",
-                "central_redaction": "RISM ufficio centrale"
-            },
+            "committee": "Comitato",
+            "contact": "Ufficio / Contatti",
+            "association": "Associazione",
+            "central_redaction": "RISM ufficio centrale"
+        },
         "cataloging": "Catalogazione",
         "projects": "Projetti",
         "links": "Liens / Documentazione",

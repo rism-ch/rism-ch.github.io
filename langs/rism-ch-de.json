@@ -12,25 +12,38 @@
     "menu": {
         "about_us": "Über uns",
         "about_us_submenu" : {
-                "committee": "Vorstand",
-                "contact": "Arbeitstelle / Kontakt",
-                "association": "Verein",
-                "central_redaction": "RISM Zentralredaktion"
-            },
+            "committee": "Vorstand",
+            "contact": "Arbeitstelle / Kontakt",
+            "association": "Verein",
+            "central_redaction": "RISM Zentralredaktion"
+        },
         "cataloging": "Katalogisierung",
         "cataloging_submenu" : {
-                "cataloging/bern-bb": "Burgerbibliothek Bern",
-                "cataloging/frey-gryn": "Frey-Grynäum",
-                "cataloging/snb": "Nationalbibliothek",
-                "cataloging/fischingen": "Kloster Fischingen",
-                "cataloging/munzingeriana": "Munzingeriana",
-                "cataloging/zhb-lu": "ZHB Luzern",
-                "cataloging/sarnen": "Sarnen",
-                "cataloging/repertorium": "Repertorium",
-                "past-cataloging-projects": "Abgeschlossene Projekte"
-            },
+            "cataloging/bern-bb": "Burgerbibliothek Bern",
+            "cataloging/frey-gryn": "Frey-Grynäum",
+            "cataloging/snb": "Nationalbibliothek",
+            "cataloging/fischingen": "Kloster Fischingen",
+            "cataloging/munzingeriana": "Munzingeriana",
+            "cataloging/zhb-lu": "ZHB Luzern",
+            "cataloging/sarnen": "Sarnen",
+            "cataloging/repertorium": "Repertorium",
+            "past-cataloging-projects": "Abgeschlossene Projekte"
+        },
         "projects": "Projekte",
-        "links": "Liens / Dokumentation",
+        "projects_submenu" : {
+            "projects/muscat": "Muscat",
+            "projects/mei": "MEI",
+            "projects/kapellmeisterbuch": "Das ‘Kapellmeisterbuch’",
+            "projects/psmd": "Printed Sacred Music",
+            "projects/communication": "Vermittlung",
+            "projects/onstage-gc": "OnStage - Genf",
+            "past-projects": "Abgeschlossene Projekte"
+            },
+        "links": "Links / Dokumentation",
+        "finding_aid": "Findmittel",
+        "finding_aid_submenu": {
+            "links/ch_people_a_e": "Bestände – Personen"
+        },
         "musicians": "Musiker"
     },
     "search": "Search",
