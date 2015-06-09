@@ -116,6 +116,16 @@ $link-color: $rismColor;
     table.about_us tr:last-child {
         border-bottom: transparent;
     }
+    p.news-more {
+        font-style: italic;
+        margin-top: -10px;
+    }
+    div.news {
+        padding-bottom: 10px;
+    }
+    div.news:not(:last-child) {
+        border-bottom: 1px solid $gray15;
+    }
 }
 
 /** Links and finding aids **/
@@ -155,13 +165,13 @@ table.finding-aid {
 }
 
 .separator {
-    border-top: 5px solid #cdcdcd;
+    border-top: 5px solid $gray15;
     margin-top: 20px;
     padding-top: 20px;
 }
 
 h3.news {
-    border-top: 5px solid #cdcdcd;
+    border-top: 5px solid $gray15;
     margin-top: 20px;
     padding-top: 20px;
 }

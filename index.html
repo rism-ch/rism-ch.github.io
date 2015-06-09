@@ -56,18 +56,26 @@ redirect_from: /pages/home/
 
 <h3 class="news" data-localize="news"></h3>
 
+<div>
 {% for post in site.posts %}
-    <h4>
-        <a href="{{ post.url }}">
-            <div class="lang en">{{ post.title.en }}</div>
-            <div class="lang de">{{ post.title.de }}</div>
-            <div class="lang fr">{{ post.title.fr }}</div>
-            <div class="lang it">{{ post.title.it }}</div>
-        </a>
-    </h4>
-    {{ post.excerpt }}
-    <div style="clear: both;"></div>
+    <div class="news">
+        <h4>
+        
+                <div class="lang en">{{ post.title.en }}</div>
+                <div class="lang de">{{ post.title.de }}</div>
+                <div class="lang fr">{{ post.title.fr }}</div>
+                <div class="lang it">{{ post.title.it }}</div>
+            </a>
+        </h4>
+        {{ post.excerpt }}
+        <p class="lang en news-more"><a href="{{ post.url }}">read more ...</a></p>
+        <p class="lang de news-more"><a href="{{ post.url }}">mehr lesen ...</a></p>
+        <p class="lang fr news-more"><a href="{{ post.url }}">en savoir plus ...</a></p>
+        <p class="lang it news-more"><a href="{{ post.url }}">read more ...</a></p>
+        <div style="clear: both;"></div>
+    </div>
 {% endfor %}
+</div>
 
 <script type="text/javascript">
 
