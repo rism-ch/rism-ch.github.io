@@ -10,14 +10,14 @@
     },
     "menu": {
         "about-us": "Über uns",
-        "about-us_submenu" : {
+        "about-us_submenu": {
             "committee": "Vorstand",
             "contact": "Arbeitstelle / Kontakt",
             "association": "Verein",
             "central-redaction": "RISM Zentralredaktion"
         },
         "cataloging": "Katalogisierung",
-        "cataloging_submenu" : {
+        "cataloging_submenu": {
             "cataloging/bern-bb": "Burgerbibliothek Bern",
             "cataloging/frey-gryn": "Frey-Grynäum",
             "cataloging/snb": "Nationalbibliothek",
@@ -29,15 +29,15 @@
             "past-cataloging-projects": "Abgeschlossene Projekte"
         },
         "projects": "Projekte",
-        "projects_submenu" : {
+        "projects_submenu": {
             "projects/muscat": "Muscat",
             "projects/mei": "MEI",
-            "projects/kapellmeisterbuch": "Das ‘Kapellmeisterbuch’",
+            "projects/kapellmeisterbuch": "Das 'Kapellmeisterbuch'",
             "projects/psmd": "Printed Sacred Music",
             "projects/communication": "Vermittlung",
             "projects/onstage-gc": "OnStage - Genf",
             "past-projects": "Abgeschlossene Projekte"
-            },
+        },
         "links": "Links",
         "links_submenu": {
             "links/org-international": "Internationale Organisationen",
@@ -57,18 +57,15 @@
             "links/ch-institutions": "Bestände – Institutionen"
         },
         "publications": "Publikationen",
-        "publications_submenu" : {
+        "publications_submenu": {
             "d-lib": "RISM Digital Library",
             "inventories": "Historical Music Inventories",
             "psmd": "Printed Sacred Music",
             "publication-list": "Weitere Publikationen"
         },
         "cds": "CDs",
-        "cds_submenu": {
-            "cd-swiss-monasteries": "Schweizer Klöster"
-        },
+        "cds_submenu": {"cd-swiss-monasteries": "Schweizer Klöster"}
     },
-    
     "finding_aid": {
         "music": "Musik",
         "general": "Allgemein",
@@ -82,7 +79,6 @@
         "general_edition": "Sammlungen",
         "composer_edition": "Einzelne Komponisten"
     },
-
     "search": "Search",
     "search_placeholder": "Suchen...",
     "search_any_field": "Irgendein Feld",

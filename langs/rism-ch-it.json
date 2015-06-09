@@ -3,14 +3,14 @@
     "select_menu": "Select...",
     "menu": {
         "about-us": "Presentazione",
-        "about-us_submenu" : {
+        "about-us_submenu": {
             "committee": "Comitato",
             "contact": "Ufficio / Contatti",
             "association": "Associazione",
             "central_redaction": "RISM ufficio centrale"
         },
         "cataloging": "Catalogazione",
-     "cataloging_submenu" : {
+        "cataloging_submenu": {
             "cataloging/bern-bb": "Biblioteca civica di Berna",
             "cataloging/frey-gryn": "Biblioteca Frey-Gryn",
             "cataloging/snb": "Biblioteca nazionale",
@@ -20,21 +20,19 @@
             "cataloging/sarnen": "Sarnen",
             "cataloging/repertorium": "Repertorium",
             "past-cataloging-projects": "Progetti conclusi"
-        },       
-            
+        },
         "projects": "Progetti",
-     "projects_submenu" : {
+        "projects_submenu": {
             "projects/muscat": "Muscat",
             "projects/mei": "MEI",
-            "projects/kapellmeisterbuch": "Il ‘Kapellmeisterbuch’",
+            "projects/kapellmeisterbuch": "Il 'Kapellmeisterbuch'",
             "projects/psmd": "Printed Sacred Music",
             "projects/communication": "Divulgazione",
             "projects/onstage-gc": "OnStage - Ginevra",
             "past-projects": "Progetti conclusi"
-            },       
-        
+        },
         "links": "Links",
-           "links_submenu": {
+        "links_submenu": {
             "links/org-international": "Organizzazioni internazionali",
             "links/org-ch": "Organizzazioni svizzere",
             "links/dictionaries": "Enciclopedie e dizionari",
@@ -52,18 +50,15 @@
             "links/ch-institutions": "Collezioni – Istituzioni"
         },
         "publications": "Pubblicazioni",
-        "publications_submenu" : {
+        "publications_submenu": {
             "d-lib": "RISM Digital Library",
             "inventories": "Historical Music Inventories",
             "psmd": "Printed Sacred Music",
             "publication-list": "Altre pubblicazioni"
         },
         "cds": "CDs",
-        "cds_submenu": {
-            "cd-swiss-monasteries": "Monasteri svizzeri"
-        },
+        "cds_submenu": {"cd-swiss-monasteries": "Monasteri svizzeri"}
     },
-    
     "finding_aid": {
         "music": "Musica",
         "general": "Generali",

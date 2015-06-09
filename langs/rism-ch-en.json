@@ -3,14 +3,14 @@
     "select_menu": "Select...",
     "menu": {
         "about-us": "About us",
-        "about-us_submenu" : {
+        "about-us_submenu": {
             "committee": "Steering committee",
             "contact": "Office / Contact",
             "association": "Association",
             "central-redaction": "RISM central office"
-            },
+        },
         "cataloging": "Cataloging",
-        "cataloging_submenu" : {
+        "cataloging_submenu": {
             "cataloging/bern-bb": "Burgerbibliothek Bern",
             "cataloging/frey-gryn": "Frey-Gryn Library",
             "cataloging/snb": "Swiss National Library",
@@ -22,17 +22,17 @@
             "past-cataloging-projects": "Past projects"
         },
         "projects": "Projects",
-        "projects_submenu" : {
+        "projects_submenu": {
             "projects/muscat": "Muscat",
             "projects/mei": "MEI",
-            "projects/kapellmeisterbuch": "The ‘Kapellmeisterbuch’",
+            "projects/kapellmeisterbuch": "The 'Kapellmeisterbuch'",
             "projects/psmd": "Printed Sacred Music",
             "projects/communication": "Knowledge transfer",
             "projects/onstage-gc": "OnStage - Geneva",
             "past-projects": "Past projects"
-            },
+        },
         "links": "Links",
-                "links_submenu": {
+        "links_submenu": {
             "links/org-international": "International organisations",
             "links/org-ch": "Swiss organisations",
             "links/dictionaries": "Encyclopaedias and dictionaries",
@@ -50,16 +50,14 @@
             "links/ch-institutions": "Collections – Institutions"
         },
         "publications": "Publications",
-        "publications_submenu" : {
+        "publications_submenu": {
             "d-lib": "RISM Digital Library",
             "inventories": "Historical Music Inventories",
             "psmd": "Printed Sacred Music",
             "publication-list": "Other publications"
         },
         "cds": "CDs",
-        "cds_submenu": {
-            "cd-swiss-monasteries": "Swiss monasteries"
-        },
+        "cds_submenu": {"cd-swiss-monasteries": "Swiss monasteries"}
     },
     "finding_aid": {
         "music": "Music",
