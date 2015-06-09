@@ -80,6 +80,7 @@ search_options:
     - ["search_library", "library_siglum"]
     - ["search_subject", "subject"]
 search_url: "http://129.194.18.233/catalog/"
+advanced_search_url: "http://129.194.18.233/advanced/"
 
 # Build settings
 #markdown: kramdown
