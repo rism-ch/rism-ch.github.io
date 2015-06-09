@@ -76,6 +76,8 @@ search_options:
     - ["search_any_field", "any_field"]
     - ["search_title", "title"]
     - ["search_composer", "composer"]
+    - ["search_library", "library_siglum"]
+    - ["search_subject", "subject"]
 search_url: "http://129.194.18.233/catalog/"
 
 # Build settings
