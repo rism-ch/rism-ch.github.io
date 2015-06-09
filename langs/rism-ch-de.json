@@ -38,7 +38,7 @@
             "projects/onstage-gc": "OnStage - Genf",
             "past-projects": "Abgeschlossene Projekte"
             },
-        "links": "Links / Dokumentation",
+        "links": "Links",
         "links_submenu": {
             "links/org-international": "Internationale Organisationen",
             "links/org-ch": "Schweizer Institutionen",
@@ -67,7 +67,6 @@
         "cds_submenu": {
             "cd-swiss-monasteries": "Schweizer Klöster"
         },
-        "musicians": "Musiker"
     },
     
     "finding_aid": {
