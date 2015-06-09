@@ -46,8 +46,8 @@
         },
         "finding-aid": "Aides à la recherche",
         "finding-aid_submenu": {
-            "links/ch-people-a-e": "Collections – Personnes",
-            "links/ch-institutions": "Collections – Institutions"
+            "links/ch-people-a-e": "Collections \u2013 Personnes",
+            "links/ch-institutions": "Collections \u2013 Institutions"
         },
         "publications": "Publications",
         "publications_submenu": {
