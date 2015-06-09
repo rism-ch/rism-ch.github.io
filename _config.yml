@@ -7,11 +7,12 @@ resources: "http://admin.rism-ch.org"
 url: "http://www.rism-ch.org"
 
 top_menu:
+    - id: simple_search
+      url: "http://129.194.18.233/catalog/"
     - id: advanced_search
       url: "http://129.194.18.233/advanced/"
     - id: search_history
       url: "http://129.194.18.233/search_history"
-    - id: help
     - id: contact
     - id: index
 

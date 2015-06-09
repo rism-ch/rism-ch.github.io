@@ -2,9 +2,9 @@
     "news": "News",
     "select_menu": "Select...",
     "top_menu": {
+        "simple_search": "Einfache Suche",
         "advanced_search": "Erweiterte Suche",
         "search_history": "Suchhistorie",
-        "help": "Hilfe",
         "contact": "Kontakt",
         "index": "Home"
     },

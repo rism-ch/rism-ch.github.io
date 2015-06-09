@@ -1,6 +1,13 @@
 {
     "news": "Actualités",
     "select_menu": "Séléctionner...",
+    "top_menu": {
+        "simple_search": "Recherche simple",
+        "advanced_search": "Recherche avancée",
+        "search_history": "Historique de recherche",
+        "contact": "Contact",
+        "index": "Home"
+    },
     "menu": {
         "about-us": "Présentation",
         "about-us_submenu": {
