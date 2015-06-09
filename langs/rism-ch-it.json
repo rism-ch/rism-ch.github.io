@@ -76,5 +76,7 @@
     "search_placeholder": "Cerca...",
     "search_any_field": "Qualsiasi campo",
     "search_title": "Titolo",
-    "search_composer": "Compositore"
+    "search_composer": "Compositore",
+    "search_library": "Sigla della biblioteca",
+    "search_subject": "Soggetto"
 }
