@@ -10,9 +10,69 @@
             "central-redaction": "RISM central office"
             },
         "cataloging": "Cataloging",
+        "cataloging_submenu" : {
+            "cataloging/bern-bb": "Burgerbibliothek Bern",
+            "cataloging/frey-gryn": "Frey-Gryn Library",
+            "cataloging/snb": "Swiss National Library",
+            "cataloging/fischingen": "Fischingen monastery",
+            "cataloging/munzingeriana": "Munzingeriana",
+            "cataloging/zhb-lu": "ZHB Luzern",
+            "cataloging/sarnen": "Sarnen",
+            "cataloging/repertorium": "Repertorium",
+            "past-cataloging-projects": "Past projects"
+        },
         "projects": "Projects",
-        "links": "Liens / Documentation",
-        "musicians": "Musicians"
+        "projects_submenu" : {
+            "projects/muscat": "Muscat",
+            "projects/mei": "MEI",
+            "projects/kapellmeisterbuch": "The ‘Kapellmeisterbuch’",
+            "projects/psmd": "Printed Sacred Music",
+            "projects/communication": "Knowledge transfer",
+            "projects/onstage-gc": "OnStage - Geneva",
+            "past-projects": "Past projects"
+            },
+        "links": "Links",
+                "links_submenu": {
+            "links/org-international": "International organisations",
+            "links/org-ch": "Swiss organisations",
+            "links/dictionaries": "Encyclopaedias and dictionaries",
+            "links/music-dictionaries": "Music reference works",
+            "links/finding-aid": "Finding aids",
+            "links/source-catalogues": "Source catalogs",
+            "links/digitisation": "Digitised sources",
+            "links/repertoire": "Repertoire",
+            "links/editions": "Online editions",
+            "links/varia": "Varia"
+        },
+        "finding-aid": "Finding aids",
+        "finding-aid_submenu": {
+            "links/ch-people-a-e": "Collections – People",
+            "links/ch-institutions": "Collections – Institutions"
+        },
+        "publications": "Publications",
+        "publications_submenu" : {
+            "d-lib": "RISM Digital Library",
+            "inventories": "Historical Music Inventories",
+            "psmd": "Printed Sacred Music",
+            "publication-list": "Other publications"
+        },
+        "cds": "CDs",
+        "cds_submenu": {
+            "cd-swiss-monasteries": "Swiss monasteries"
+        },
+    },
+    "finding_aid": {
+        "music": "Music",
+        "general": "General",
+        "swiss": "Switzerland",
+        "meta_catalogues": "Meta-catalogs",
+        "historic_catalogues": "Historical catalogs",
+        "music_theatre": "Music theatre",
+        "liturgical_music": "Liturgical music",
+        "vocal_music": "Vocal music",
+        "instrumental_music": "Instrumental music",
+        "general_edition": "Collections",
+        "composer_edition": "Single composers"
     },
     "search": "Search",
     "search_placeholder": "Search...",
