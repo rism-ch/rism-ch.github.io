@@ -54,18 +54,19 @@ redirect_from: /pages/home/
     {% include it/home.html %}
 </div>
 
-<div class="separator"></div>
-
-<h5 data-localize="news"></h5>
+<h3 class="news" data-localize="news"></h3>
 
 {% for post in site.posts %}
-    <a href="{{ post.url }}">
-        <div class="lang en">{{ post.title.en }}</div>
-        <div class="lang de">{{ post.title.de }}</div>
-        <div class="lang fr">{{ post.title.fr }}</div>
-        <div class="lang it">{{ post.title.it }}</div>
-    </a>
+    <h4>
+        <a href="{{ post.url }}">
+            <div class="lang en">{{ post.title.en }}</div>
+            <div class="lang de">{{ post.title.de }}</div>
+            <div class="lang fr">{{ post.title.fr }}</div>
+            <div class="lang it">{{ post.title.it }}</div>
+        </a>
+    </h4>
     {{ post.excerpt }}
+    <div style="clear: both;"></div>
 {% endfor %}
 
 <script type="text/javascript">

@@ -18,6 +18,15 @@
         	    </div>   
                 <div id="content" class="col-md-9 col-sm-12">
                         
+                    {% if page.post %}
+                    <h3>
+                        <div class="lang en">{{ page.title.en }}</div>
+                        <div class="lang de">{{ page.title.de }}</div>
+                        <div class="lang fr">{{ page.title.fr }}</div>
+                        <div class="lang it">{{ page.title.it }}</div>
+                    </h3>
+                    {% endif %}
+                    
                     {{ content }}
                 
                 </div>
