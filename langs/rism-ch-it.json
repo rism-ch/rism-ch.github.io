@@ -82,8 +82,8 @@
         "general_edition": "Collezioni",
         "composer_edition": "Singoli compositori"
     },
-    "search": "Ricerca",
-    "search_placeholder": "Cerca...",
+    "search": "Avvia la ricerca",
+    "search_placeholder": "Ricerca in corso...",
     "search_any_field": "Qualsiasi campo",
     "search_title": "Titolo",
     "search_composer": "Compositore",
