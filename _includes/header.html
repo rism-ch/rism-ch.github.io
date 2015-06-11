@@ -28,7 +28,7 @@
                         {% capture link %}{{ s.url }}{% endcapture %}
                     {% endif %}
                     <li>
-                        <a data-localize="top_menu.{{ s.id }}" href="{{ link }}">&nbsp;</a>
+                        <a data-localize="top_menu.{{ s.id }}" class="{% if s.localize %}localized-link{% endif %}" href="{{ link }}">&nbsp;</a>
                     </li>
                 {% endfor %}
             </ul>

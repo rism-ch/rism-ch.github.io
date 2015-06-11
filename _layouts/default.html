@@ -62,6 +62,12 @@
             $("[data-localize]").localize("/langs/rism-ch", { language: locale });
             // update the parameter to be passed to the opac
             $("#search_locale").attr( "value", locale );
+            // update all the links with the .localized-link class (changing last two chars)
+            $( ".localized-link" ).each(function( index ) {
+              href = $( this ).attr('href');
+              $( this ).attr( "href", href.substring(0, href.length - 2) + locale );
+            });
+            // show html with current locale
             $("." + locale).show();
         </script>
           
