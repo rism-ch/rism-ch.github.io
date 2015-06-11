@@ -64,7 +64,11 @@
             "publication-list": "Weitere Publikationen"
         },
         "cds": "CDs",
-        "cds_submenu": {"cd-swiss-monasteries": "Schweizer Klöster"}
+        "cds_submenu": {
+            "cd-swiss-monasteries": "Schweizer Klöster"
+        },
+        "faq": "FAQ"
+        
     },
     "finding_aid": {
         "music": "Musik",

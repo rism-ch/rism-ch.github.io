@@ -64,7 +64,10 @@
             "publication-list": "Autres publications"
         },
         "cds": "CDs",
-        "cds_submenu": {"cd-swiss-monasteries": "Monastères suisses"}
+        "cds_submenu": {
+            "cd-swiss-monasteries": "Monastères suisses"
+        },
+        "faq": "FAQ"
     },
     "finding_aid": {
         "music": "Musique",

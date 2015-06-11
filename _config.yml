@@ -75,6 +75,7 @@ menu:
     - id: cds
       submenu:
           - id: cd-swiss-monasteries
+    - id: faq
     
 search_options:
     - ["search_any_field", "any_field"]
