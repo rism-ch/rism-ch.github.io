@@ -14,7 +14,7 @@
             "committee": "Comitato",
             "contact": "Ufficio / Contatti",
             "association": "Associazione",
-            "central_redaction": "RISM ufficio centrale"
+            "central-redaction": "RISM ufficio centrale"
         },
         "cataloging": "Catalogazione",
         "cataloging_submenu": {
