@@ -14,7 +14,7 @@
             "committee": "Comité directeur",
             "contact": "Bureau / Contacts",
             "association": "Association",
-            "central_redaction": "Rédaction centrale"
+            "central-redaction": "Rédaction centrale du RISM"
         },
         "cataloging": "Catalogage",
         "cataloging_submenu": {
