@@ -2,7 +2,7 @@
     "news": "News",
     "select_menu": "Select...",
     "top_menu": {
-        "simple_search": "Ricerca Suche",
+        "simple_search": "Ricerca semplice",
         "advanced_search": "Ricerca avanzata",
         "search_history": "Ricerche effettuate",
         "contact": "Contatti",
@@ -64,7 +64,10 @@
             "publication-list": "Altre pubblicazioni"
         },
         "cds": "CDs",
-        "cds_submenu": {"cd-swiss-monasteries": "Monasteri svizzeri"}
+        "cds_submenu": {
+            "cd-swiss-monasteries": "Monasteri svizzeri"
+        },
+        "faq": "FAQ"
     },
     "finding_aid": {
         "music": "Musica",
@@ -79,8 +82,8 @@
         "general_edition": "Collezioni",
         "composer_edition": "Singoli compositori"
     },
-    "search": "Ricerca",
-    "search_placeholder": "Cerca...",
+    "search": "Avvia la ricerca",
+    "search_placeholder": "Ricerca in corso...",
     "search_any_field": "Qualsiasi campo",
     "search_title": "Titolo",
     "search_composer": "Compositore",

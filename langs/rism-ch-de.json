@@ -64,7 +64,11 @@
             "publication-list": "Weitere Publikationen"
         },
         "cds": "CDs",
-        "cds_submenu": {"cd-swiss-monasteries": "Schweizer Klöster"}
+        "cds_submenu": {
+            "cd-swiss-monasteries": "Schweizer Klöster"
+        },
+        "faq": "FAQ"
+        
     },
     "finding_aid": {
         "music": "Musik",
@@ -79,7 +83,7 @@
         "general_edition": "Sammlungen",
         "composer_edition": "Einzelne Komponisten"
     },
-    "search": "Search",
+    "search": "Suchen",
     "search_placeholder": "Suchen...",
     "search_any_field": "Irgendein Feld",
     "search_title": "Title",

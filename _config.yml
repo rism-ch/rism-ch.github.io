@@ -8,11 +8,14 @@ url: "http://www.rism-ch.org"
 
 top_menu:
     - id: simple_search
-      url: "http://129.194.18.233/catalog/"
+      url: "http://129.194.18.233/catalog/?locale=en"
+      localize: true
     - id: advanced_search
-      url: "http://129.194.18.233/advanced/"
+      url: "http://129.194.18.233/advanced/?locale=en"
+      localize: true
     - id: search_history
-      url: "http://129.194.18.233/search_history"
+      url: "http://129.194.18.233/search_history/?locale=en"
+      localize: true
     - id: contact
     - id: index
 
@@ -72,6 +75,7 @@ menu:
     - id: cds
       submenu:
           - id: cd-swiss-monasteries
+    - id: faq
     
 search_options:
     - ["search_any_field", "any_field"]

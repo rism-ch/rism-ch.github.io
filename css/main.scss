@@ -149,6 +149,17 @@ table.finding-aid {
     }
 }
 
+/** FAQ **/
+
+p.faq {
+    color: $link-color;
+    text-decoration: underline;
+}
+
+div.faq-answer {
+    display: none;
+}
+
 /** For translations **/
 .lang {
     display: none;
