@@ -69,8 +69,10 @@ menu:
           - id: d-lib
           - id: inventories
             url: "http://inventories.rism-ch.org"
+            blank: true
           - id: psmd
             url: "http://www.printed-sacred-music.org"
+            blank: true
           - id: publication-list
     - id: cds
       submenu:
