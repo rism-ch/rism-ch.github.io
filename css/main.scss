@@ -64,12 +64,15 @@ $link-color: $rismColor;
 }
 
 .sublist-group a {
-	padding: 5px 15px;
+    padding: 5px 15px 5px 35px;
+    margin-left: 5px;
     background-color: transparent;
     border: transparent;
     border-bottom: 1px dotted $gray85;
     radius: 0px;
     text-decoration: none;
+    background: url(/images/rism_ch/index-mark.png) no-repeat;
+    background-position: left center;
 }
 
 .sublist-group > .list-group-item:last-child {
@@ -101,11 +104,12 @@ div.secondary_links {
         margin: 0;
     }
     a {
-        padding: 0 0 12px 0;
+        padding: 5px 0px;
         margin-left: 5px;
         padding-left: 35px;
         display: block;
         background: url(/images/rism_ch/index-mark.png) no-repeat;
+        background-position: left center;
     }
 }
 
