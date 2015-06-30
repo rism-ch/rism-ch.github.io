@@ -64,11 +64,11 @@ $link-color: $rismColor;
 }
 
 .sublist-group a {
-    padding: 5px 15px 5px 35px;
-    margin-left: 5px;
+    padding: 6px 15px 6px 35px;
+    margin: 0px 5px;
     background-color: transparent;
     border: transparent;
-    border-bottom: 1px dotted $gray85;
+    border-bottom: 1px dotted $gray50;
     radius: 0px;
     text-decoration: none;
     background: url(/images/rism_ch/index-mark.png) no-repeat;
@@ -82,20 +82,20 @@ $link-color: $rismColor;
 
 .sublist-group > a.active {
     color: $rismColor;
-    border-bottom: 1px dotted $gray85;
+    border-bottom: 1px dotted $gray50;
     background: url(/images/rism_ch/index-mark-c.png) no-repeat;
     background-position: left center;
 }
 
 .sublist-group > a:hover {
     color: $rismColor;
-    border-bottom: 1px dotted $gray85;
+    border-bottom: 1px dotted $gray50;
     background-color: transparent;
 }
 
 .sublist-group > a.active:hover {
     color: $rismColor;
-    border-bottom: 1px dotted $gray85;
+    border-bottom: 1px dotted $gray50;
     background-color: transparent;
 }
 
