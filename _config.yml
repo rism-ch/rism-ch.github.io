@@ -43,11 +43,11 @@ menu:
     - id: projects
       submenu:
           - id: projects/muscat
-          - id: projects/mei
+          - id: projects/onstage-gc
           - id: projects/kapellmeisterbuch
+          - id: projects/mei
           - id: projects/psmd
           - id: projects/communication
-          - id: projects/onstage-gc
           - id: past-projects
     - id: links
       submenu:
