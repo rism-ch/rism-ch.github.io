@@ -25,6 +25,7 @@ menu:
           - id: committee
           - id: contact
           - id: association
+          - id: press
           - id: central-redaction
             url: "http://www.rism.info"
             blank: true
