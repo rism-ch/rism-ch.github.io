@@ -95,6 +95,20 @@ $link-color: $rismColor;
     background-color: transparent;
 }
 
+div.secondary_links {
+    p {
+        padding: 0;
+        margin: 0;
+    }
+    a {
+        padding: 0 0 12px 0;
+        margin-left: 5px;
+        padding-left: 35px;
+        display: block;
+        background: url(/images/rism_ch/index-mark.png) no-repeat;
+    }
+}
+
 /** For the content **/
 #content {
     h3 {

@@ -19,15 +19,9 @@
 </div>
 
 {% for m in site.menu %}
-    {% if page.active_section == m.id %}
+    {% if page.active_section == m.id and page.hide_secondary != true %}
     <div class="list-group sublist-group">
-        {% for s in m.submenu %}
-            {% capture link %}{{ site.baseurl }}/{{ s.id }}.html{% endcapture %}
-            {% if s.url.size > 0 %}
-                {% capture link %}{{ s.url }}{% endcapture %}
-            {% endif %}
-            <a data-localize="menu.{{ m.id }}_submenu.{{ s.id }}" class="list-group-item {% if page.active == s.id %}active{% endif %}" href="{{ link }}" {% if s.blank == true %}target="_blank"{% endif %}>&nbsp;</a>
-        {% endfor %}  
+        {% include secondary_link.html class="list-group-item" %}
     </div>
     {% endif %}
 {% endfor %}
