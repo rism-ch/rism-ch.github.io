@@ -17,7 +17,7 @@
             "association": "Verein",
             "central-redaction": "RISM Zentralredaktion"
         },
-        "cataloging": "Katalogisierung",
+        "cataloging": "Katalogisierungsprojekte",
         "cataloging_submenu": {
             "cataloging/bern-bb": "Burgerbibliothek Bern",
             "cataloging/frey-gryn": "Frey-Grynäum",
@@ -29,7 +29,7 @@
             "cataloging/repertorium": "Repertorium",
             "past-cataloging-projects": "Abgeschlossene Projekte"
         },
-        "projects": "Projekte",
+        "projects": "Weitere Projekte",
         "projects_submenu": {
             "projects/muscat": "Muscat",
             "projects/mei": "MEI",
