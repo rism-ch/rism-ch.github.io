@@ -83,7 +83,8 @@ $link-color: $rismColor;
 .sublist-group > a.active {
     color: $rismColor;
     border-bottom: 1px dotted $gray85;
-    background-color: transparent;
+    background: url(/images/rism_ch/index-mark-c.png) no-repeat;
+    background-position: left center;
 }
 
 .sublist-group > a:hover {
