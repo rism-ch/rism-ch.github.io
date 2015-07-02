@@ -7,10 +7,17 @@
 
         {% include header.html %}
         
-        {% if page.search %}{% include search.html %}{% endif %}
+        {% include search.html %}
 
         <div id="main-container" class="container">       
-            <div class="row">  
+            <div class="row">
+                {% if page.no-menu %}
+                <div id="content" class="col-md-12 col-sm-12">
+                    
+                    {{ content }}
+                
+                </div>
+                {% else %}
         	    <div class="col-md-3 col-sm-12 sidebar-offcanvas" id="sidebar" role="navigation">
         			    
                     {% include menu.html %}
@@ -30,6 +37,7 @@
                     {{ content }}
                 
                 </div>
+                {% endif %}
             </div>
         </div>
         

@@ -1,5 +1,6 @@
-<div id="search-navbar" class="navbar navbar-default navbar-static-top" role="navigation">
+<div id="search-navbar" class="navbar navbar-default navbar-static-top {% if page.search == false %}advanced{% endif %}" role="navigation">
     <div class="container">
+        {% if page.search %}
         <div class="col-md-3 hidden-sm hidden-xs search-navbar-logo">
             <img src="/images/logo-large-ch.png">
         </div>
@@ -34,5 +35,15 @@
                 </form>
             </div>
         </div>
+        {% else %}
+        <div class="col-md-12 search-navbar-right">
+            <div class="search-navbar-locale pull-right">
+                <a href="?locale=en">English</a>
+                <a href="?locale=de">Deutsch</a>
+                <a href="?locale=fr">Français</a>
+                <a href="?locale=it">Italiano</a>
+            </div>
+        </div>
+        {% endif %}
     </div>
 </div>
