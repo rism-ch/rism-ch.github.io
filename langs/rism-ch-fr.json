@@ -17,7 +17,7 @@
             "press": "Articles de presse",
             "central-redaction": "Rédaction centrale du RISM"
         },
-        "cataloging": "Catalogage",
+        "cataloging": "Projets de catalogage",
         "cataloging_submenu": {
             "cataloging/bern-bb": "Bibliothèque de la bourgeoisie de Berne",
             "cataloging/frey-gryn": "Bibliothèque Frey-Gryn",
@@ -29,15 +29,15 @@
             "cataloging/repertorium": "Repertorium",
             "past-cataloging-projects": "Projets terminés"
         },
-        "projects": "Projets",
-        "projects_submenu": {
-            "projects/muscat": "Muscat",
-            "projects/mei": "MEI",
-            "projects/kapellmeisterbuch": "Le 'Kapellmeisterbuch'",
-            "projects/psmd": "Printed Sacred Music",
-            "projects/communication": "Transmission",
-            "projects/onstage-gc": "OnStage - Genève",
-            "past-projects": "Projets terminés"
+        "infrastructure": "Projets d'infrastructure",
+        "infrastructure_submenu": {
+            "infrastructure/muscat": "Muscat",
+            "infrastructure/mei": "MEI",
+            "infrastructure/kapellmeisterbuch": "Le 'Kapellmeisterbuch'",
+            "infrastructure/psmd": "Printed Sacred Music",
+            "infrastructure/communication": "Transmission",
+            "infrastructure/onstage-gc": "OnStage - Genève",
+            "past-infrastructure-projects": "Projets terminés"
         },
         "links": "Liens",
         "links_submenu": {

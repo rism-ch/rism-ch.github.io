@@ -17,7 +17,7 @@
             "press": "Articoli della stampa",
             "central-redaction": "RISM ufficio centrale"
         },
-        "cataloging": "Catalogazione",
+        "cataloging": "Progetti di catalogazione",
         "cataloging_submenu": {
             "cataloging/bern-bb": "Biblioteca civica di Berna",
             "cataloging/frey-gryn": "Biblioteca Frey-Gryn",
@@ -29,15 +29,15 @@
             "cataloging/repertorium": "Repertorium",
             "past-cataloging-projects": "Progetti conclusi"
         },
-        "projects": "Progetti",
-        "projects_submenu": {
-            "projects/muscat": "Muscat",
-            "projects/mei": "MEI",
-            "projects/kapellmeisterbuch": "Il 'Kapellmeisterbuch'",
-            "projects/psmd": "Printed Sacred Music",
-            "projects/communication": "Divulgazione",
-            "projects/onstage-gc": "OnStage - Ginevra",
-            "past-projects": "Progetti conclusi"
+        "infrastructure": "Progetti di infrastruttura",
+        "infrastructure_submenu": {
+            "infrastructure/muscat": "Muscat",
+            "infrastructure/mei": "MEI",
+            "infrastructure/kapellmeisterbuch": "Il 'Kapellmeisterbuch'",
+            "infrastructure/psmd": "Printed Sacred Music",
+            "infrastructure/communication": "Divulgazione",
+            "infrastructure/onstage-gc": "OnStage - Ginevra",
+            "past-infrastructure-projects": "Progetti conclusi"
         },
         "links": "Links",
         "links_submenu": {

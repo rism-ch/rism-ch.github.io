@@ -29,15 +29,15 @@
             "cataloging/repertorium": "Repertorium",
             "past-cataloging-projects": "Abgeschlossene Projekte"
         },
-        "projects": "Weitere Projekte",
-        "projects_submenu": {
-            "projects/muscat": "Muscat",
-            "projects/mei": "MEI",
-            "projects/kapellmeisterbuch": "Das 'Kapellmeisterbuch'",
-            "projects/psmd": "Printed Sacred Music",
-            "projects/communication": "Vermittlung",
-            "projects/onstage-gc": "OnStage - Genf",
-            "past-projects": "Abgeschlossene Projekte"
+        "infrastructure": "Infrastrukturprojekte",
+        "infrastructure_submenu": {
+            "infrastructure/muscat": "Muscat",
+            "infrastructure/mei": "MEI",
+            "infrastructure/kapellmeisterbuch": "Das 'Kapellmeisterbuch'",
+            "infrastructure/psmd": "Printed Sacred Music",
+            "infrastructure/communication": "Vermittlung",
+            "infrastructure/onstage-gc": "OnStage - Genf",
+            "past-infrastructure-projects": "Abgeschlossene Projekte"
         },
         "links": "Links",
         "links_submenu": {

@@ -17,7 +17,7 @@
             "press": "Press articles",
             "central-redaction": "RISM central office"
         },
-        "cataloging": "Cataloging",
+        "cataloging": "Cataloging projects",
         "cataloging_submenu": {
             "cataloging/bern-bb": "Burgerbibliothek Bern",
             "cataloging/frey-gryn": "Frey-Gryn Library",
@@ -29,15 +29,15 @@
             "cataloging/repertorium": "Repertorium",
             "past-cataloging-projects": "Past projects"
         },
-        "projects": "Projects",
-        "projects_submenu": {
-            "projects/muscat": "Muscat",
-            "projects/mei": "MEI",
-            "projects/kapellmeisterbuch": "The 'Kapellmeisterbuch'",
-            "projects/psmd": "Printed Sacred Music",
-            "projects/communication": "Knowledge transfer",
-            "projects/onstage-gc": "OnStage - Geneva",
-            "past-projects": "Past projects"
+        "infrastructure": "Infrastructure projects",
+        "infrastructure_submenu": {
+            "infrastructure/muscat": "Muscat",
+            "infrastructure/mei": "MEI",
+            "infrastructure/kapellmeisterbuch": "The 'Kapellmeisterbuch'",
+            "infrastructure/psmd": "Printed Sacred Music",
+            "infrastructure/communication": "Knowledge transfer",
+            "infrastructure/onstage-gc": "OnStage - Geneva",
+            "past-infrastructure-projects": "Past projects"
         },
         "links": "Links",
         "links_submenu": {

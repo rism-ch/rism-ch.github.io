@@ -40,15 +40,15 @@ menu:
           - id: cataloging/sarnen
           - id: cataloging/repertorium
           - id: past-cataloging-projects
-    - id: projects
+    - id: infrastructure
       submenu:
-          - id: projects/muscat
-          - id: projects/onstage-gc
-          - id: projects/kapellmeisterbuch
-          - id: projects/mei
-          - id: projects/psmd
-          - id: projects/communication
-          - id: past-projects
+          - id: infrastructure/muscat
+          - id: infrastructure/onstage-gc
+          - id: infrastructure/kapellmeisterbuch
+          - id: infrastructure/mei
+          - id: infrastructure/psmd
+          - id: infrastructure/communication
+          - id: past-infrastructure-projects
     - id: links
       submenu:
           - id: links/org-international
