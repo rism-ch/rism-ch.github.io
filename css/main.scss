@@ -141,6 +141,12 @@ div.secondary_links {
         margin-bottom: 10px;
     }
     
+    h3.news {
+        border-top: 2px solid $gray30;
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    
     p.news-more {
         font-style: italic;
         margin-top: -10px;
@@ -150,6 +156,13 @@ div.secondary_links {
     }
     div.news:not(:last-child) {
         border-bottom: 1px solid $gray15;
+    }
+    
+    div.support {        
+        border-top: 2px solid $gray30;
+        margin-top: 20px;
+        padding-top: 20px;
+        padding-bottom: 40px;
     }
 }
 
@@ -201,15 +214,9 @@ div.faq-answer {
 }
 
 .separator {
-    border-top: 2px solid $gray30;
+    border-top: 1px solid $gray15;
     margin-top: 20px;
     padding-top: 25px;
-}
-
-h3.news {
-    border-top: 2px solid $gray30;
-    margin-top: 20px;
-    padding-top: 20px;
 }
 
 /**
