@@ -31,14 +31,15 @@ menu:
             blank: true
     - id: cataloging
       submenu:
-          - id: cataloging/bern-bb
-          - id: cataloging/frey-gryn
+          - id: cataloging/niedermeyer
           - id: cataloging/snb
-          - id: cataloging/fischingen
-          - id: cataloging/munzingeriana
           - id: cataloging/zhb-lu
+          - id: cataloging/fischingen
           - id: cataloging/sarnen
+          - id: cataloging/munzingeriana
+          - id: cataloging/frey-gryn
           - id: cataloging/repertorium
+          - id: cataloging/bern-bb
           - id: past-cataloging-projects
     - id: infrastructure
       submenu:

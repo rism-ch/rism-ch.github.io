@@ -19,6 +19,7 @@
         },
         "cataloging": "Projets de catalogage",
         "cataloging_submenu": {
+            "cataloging/niedermeyer": "Louis Niedermeyer",
             "cataloging/bern-bb": "Bibliothèque de la bourgeoisie de Berne",
             "cataloging/frey-gryn": "Bibliothèque Frey-Gryn",
             "cataloging/snb": "Bibliothèque nationale",

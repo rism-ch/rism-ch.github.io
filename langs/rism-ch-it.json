@@ -19,6 +19,7 @@
         },
         "cataloging": "Progetti di catalogazione",
         "cataloging_submenu": {
+            "cataloging/niedermeyer": "Louis Niedermeyer",
             "cataloging/bern-bb": "Biblioteca civica di Berna",
             "cataloging/frey-gryn": "Biblioteca Frey-Gryn",
             "cataloging/snb": "Biblioteca nazionale",
