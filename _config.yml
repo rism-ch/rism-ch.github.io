@@ -31,12 +31,11 @@ menu:
             blank: true
     - id: cataloging
       submenu:
+          - id: cataloging/bcu-lausanne
           - id: cataloging/niedermeyer
           - id: cataloging/snb
           - id: cataloging/zhb-lu
-          - id: cataloging/fischingen
           - id: cataloging/sarnen
-          - id: cataloging/munzingeriana
           - id: cataloging/frey-gryn
           - id: cataloging/repertorium
           - id: cataloging/bern-bb
