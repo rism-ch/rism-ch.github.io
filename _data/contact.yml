@@ -1,0 +1,82 @@
+title:
+    en: "Swiss RISM Office - Contact"
+    de: "Arbeitsstelle Schweiz des RISM - Kontakt"
+    fr: "Bureau suisse du RISM - Contact"
+    it: "Ufficio svizzero RISM - Contatti"
+
+office:
+    email: "info@rism-ch.org"
+    address:
+        en: "Swiss RISM Office<br/>Hallwylstrasse 15<br/>PO box 286<br/>CH-3000 Bern 6"
+        de: "Arbeitsstelle Schweiz des RISM<br/>Hallwylstrasse 15<br/>Postfach 286<br/>CH-3000 Bern 6"
+        fr: "Bureau suisse du RISM<br/>Hallwylstrasse 15<br/>CP 286<br/>CH-3000 Berne 6"
+        it: "Ufficio svizzero RISM<br/>Hallwylstrasse 15<br/>CP 286<br/>CH-3000 Berna 6"
+    howto:
+        en: "How to find us?"
+        de: "Wo sind wir?"
+        fr: "Où sommes nous?"
+        it: "Dove siamo?"
+    nb:
+        en: "The Swiss RISM Office is located at the <a target=\"_blank\" href=\"http://www.nb.admin.ch/slb/index.html?lang=en\">Swiss National Library</a>."
+        de: "Die Arbeitsstelle Schweiz des RISM befindet sich in der <a target=\"_blank\" href=\"http://www.nb.admin.ch/slb/index.html?lang=de\">Schweizerischen Nationalbibliothek</a>."
+        fr: "Le Bureau suisse du RISM se trouve à la <a target=\"_blank\" href=\"http://www.nb.admin.ch/slb/index.html?lang=fr\">Bibliothèque nationale suisse</a>."
+        it: "L’Ufficio svizzero RISM si trova presso la <a target=\"_blank\" href=\"http://www.nb.admin.ch/slb/index.html?lang=it\">Biblioteca nazionale svizzera</a>."
+
+groups:
+    - labels:
+        en: "Co-directors"
+        de: "Co-Leitung"
+        fr: "Co-directeurs"
+        it: "Co-direzione"
+      person:
+        - name: "Cédric Güggi, lic. phil."
+          phone: "+41(0)58 464 49 34"
+          days:
+            en: "(Monday and Tuesday)"
+            de: "(Montag und Dienstag)"
+            fr: "(lundi et mardi)"
+            it: "(lunedì e martedì)"
+          email: "cedric.gueggi@rism-ch.org"
+          photo: "cedric.gueggi.jpg"
+          text:
+              en: "Cédric Güggi studierte Musikwissenschaften sowie deutsche Sprachwissenschaften und ältere deutsche Literatur an der Universität Zürich. Nach einer ersten Anstellung als wissenschaftlicher Mitarbeiter bei der Arbeitsstelle Schweiz des RISM (2006-2008) und einem Engagement in der Musikabteilung der Zentralbibliothek Zürich (2008-2009) er im September 2009 die Co-Leitung von RISM Schweiz. Dort ist er seither verantwortlich für administrative Belange sowie die Inventarisierungsprojekte."
+          
+        - name: "Dr. Laurent Pugin"
+          phone: "+41(0)58 463 80 16"
+          email: "laurent.pugin@rism-ch.org"
+          photo: "laurent.pugin.jpg"
+          text:
+              en: "Laurent Pugin has a dual training as musicologist and computer science. His areas of study affect both fields of human sciences, such as philology, history of musical notation, or music bibliography, and technological areas applied to music sources such as image processing and machine learning. Laurent Pugin was 2006-2009 postdoctoral researcher and lecturer at McGill University in Montreal and visiting scholar at Stanford University, USA. His research work has been conducted in connection with the development of open source software recognition scores, Aruspix as well as a digital publishing project dedicated to Renaissance composer Luca Marenzio. He is secretary of the International Steering Committee of the project since 2013. He is also co-applicant of the project Single Interface for Searching Music Score and Analysis (SIMSSA), a seven-year research project based at McGill University. Since 2014 he is member of the Board of the Music Encoding Initiative (MEI) and co-chair of its technical team."
+    - labels:
+        en: "Scientific Collaborators"
+        de: "Wissenschaftliche Mitarbeiter"
+        fr: "Collaborateurs scientifiques"
+        it: "Collaboratori scientifici"
+      person:
+        - name: "Dr. Claudio Bacciagaluppi"
+          phone: "+41(0)58 465 03 59"
+          email: "claudio.bacciagaluppi@rism-ch.org"
+          photo: "claudio.bacciagaluppi.jpg"
+          text:
+              en: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. "
+              
+        - name: "Yvonne Peters, M. A."
+          phone: "+41(0)58 465 73 25"
+          email: "yvonne.peters@rism-ch.org"
+          photo: "yvonne.peters.jpg"
+          text:
+              en: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. "
+              
+        - name: "Florence Sidler, M. A."
+          phone: "+41(0)58 465 73 25"
+          email: "florence.sidler@rism-ch.org"
+          photo: "florence.sidler.jpg"
+          text:
+              en: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. "
+              
+        - name: "Rodolfo Zitellini, M. A."
+          phone: "+41(0)58 465 03 59"
+          email: "rodolfo.zitellini@rism-ch.org"
+          photo: "rodolfo.zitellini.jpg"
+          text:
+              en: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. "
