@@ -198,6 +198,32 @@ div.faq-answer {
     display: none;
 }
 
+/** text in contact page **/
+
+img.map {
+    border: 2px solid $link-color;
+}
+
+p.person_name {
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+p.person_data {
+    padding-left: 25px;
+    margin-bottom: 5px;
+    padding-bottom: 0px;
+}
+
+p.text {
+    color: $link-color;
+}
+
+div.text-content {
+    display: none;
+}
+
 /** For translations **/
 .lang {
     display: none;
