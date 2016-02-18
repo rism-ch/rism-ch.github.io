@@ -1,0 +1,108 @@
+---
+layout: default
+search: true
+active_section: about-us
+active: contact
+lang: en
+redirect_from: /pages/contact/
+---
+
+<h3>
+    <div class="lang en">{{ site.data.contact.title.en }}</div>
+    <div class="lang de">{{ site.data.contact.title.de }}</div>
+    <div class="lang fr">{{ site.data.contact.title.fr }}</div>
+    <div class="lang it">{{site.data.contact.title.it }}</div>
+</h3>
+
+<div>
+    <div class="row">
+        <div class="col-sm-8 col-xs-12">
+            <p>
+                <span class="lang en">{{ site.data.contact.office.address.en }}</span>
+                <span class="lang de">{{ site.data.contact.office.address.de }}</span>
+                <span class="lang fr">{{ site.data.contact.office.address.fr }}</span>
+                <span class="lang it">{{ site.data.contact.office.address.it }}</span>
+                <br/><br/>
+                <a href="#">
+                    <span class="glyphicon glyphicon-envelope">&nbsp;</span>
+                </a>
+                <a href="mailto:{{ site.data.contact.office.email }}">{{ site.data.contact.office.email }}</a>
+            </p>
+            <p class="person_name">
+                <span class="lang en">{{ site.data.contact.office.howto.en }}</span>
+                <span class="lang de">{{ site.data.contact.office.howto.de }}</span>
+                <span class="lang fr">{{ site.data.contact.office.howto.fr }}</span>
+                <span class="lang it">{{ site.data.contact.office.howto.it }}</span>
+            </p>
+            <p>
+                <span class="lang en">{{ site.data.contact.office.nb.en }}</span>
+                <span class="lang de">{{ site.data.contact.office.nb.de }}</span>
+                <span class="lang fr">{{ site.data.contact.office.nb.fr }}</span>
+                <span class="lang it">{{ site.data.contact.office.nb.it }}</span>
+            </p>
+        </div>
+        <div class="col-sm-4 col-xs-12">
+            <div align="center">
+                <a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Hallwylstrasse+15,+3005+Bern,+Switzerland&amp;sll=41.260946,-117.27196&amp;sspn=109.92994,270.527344&amp;ie=UTF8&amp;hq=&amp;hnear=Hallwylstrasse+15,+3005+Bern,+Switzerland&amp;ll=46.947919,7.45388&amp;spn=0.020508,0.036478&amp;z=14&amp;iwloc=A" target="_blank"><img class="map img_responsive" src="/images/rism_ch/map-small.png"></a>
+            </div>
+        </div>
+    </div>  
+    {% for g in site.data.contact.groups %}
+    <h4>
+        <div class="lang en">{{ g.labels.en }}</div>
+        <div class="lang de">{{ g.labels.de }}</div>
+        <div class="lang fr">{{ g.labels.fr }}</div>
+        <div class="lang it">{{ g.labels.it }}</div>
+    </h4>
+        {% for p in g.person %}
+        <p class="person_name">
+            {{ p.name }}
+        </p>
+        <p class="person_data">
+            <span class="glyphicon glyphicon-phone-alt">&nbsp;</span>
+            {{ p.phone }}
+            {% if p.days %}
+            <span class="lang en">{{ p.days.en }}</span>
+            <span class="lang de">{{ p.days.de }}</span>
+            <span class="lang fr">{{ p.days.fr }}</span>
+            <span class="lang it">{{ p.days.it }}</span>
+            {% endif %}
+            <br/>
+            <span class="glyphicon glyphicon-envelope">&nbsp;</span>
+            <a href="mailto:{{ p.email }}">{{ p.email }}</a>
+        </p>
+        <p class="text">
+            <span class="glyphicon glyphicon-plus">&nbsp;</span>
+        </p>
+        <div class="row text-content">
+            <div class="col-md-8">
+                <p>
+                    <span class="lang en">{{ p.text.en }}</span>
+                    <span class="lang de">{{ p.text.de }}</span>
+                    <span class="lang fr">{{ p.text.fr }}</span>
+                    <span class="lang it">{{ p.text.it }}</span>
+                </p>
+            </div>
+            <div class="col-md-4 hidden-xs" style="margin-top: 0px;">
+                <img class="img-responsive" src="/images/photos/{{ p.photo }}"/>
+            </div>
+         </div>
+
+        {% endfor %}
+    {% endfor %}
+</div>
+<div>&nbsp;</div>
+
+<script>
+
+$('.text').click(function () {
+    next = $(this).next('div.text-content');
+    next.slideToggle();
+    $('> span', this).toggleClass('glyphicon-plus glyphicon-minus');
+    
+    if ( next.is(':visible') && next.is(':last-child')) {
+       $("html, body").animate({scrollTop: next.offset().top});
+    }
+}); 
+
+</script>
