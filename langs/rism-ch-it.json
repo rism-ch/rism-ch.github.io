@@ -68,6 +68,7 @@
         },
         "cds": "CDs",
         "cds_submenu": {
+            "cd-cazzati": "Cazzati, Messa e Salmi",
             "cd-swiss-monasteries": "Monasteri svizzeri"
         },
         "faq": "FAQ"

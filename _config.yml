@@ -77,6 +77,7 @@ menu:
           - id: publication-list
     - id: cds
       submenu:
+          - id: cd-cazzati
           - id: cd-swiss-monasteries
     - id: faq
     
