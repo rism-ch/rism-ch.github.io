@@ -31,6 +31,7 @@ menu:
             blank: true
     - id: cataloging
       submenu:
+          - id: cataloging/reichel
           - id: cataloging/bcu-lausanne
           - id: cataloging/niedermeyer
           - id: cataloging/snb
