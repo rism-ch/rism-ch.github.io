@@ -19,7 +19,6 @@
         },
         "cataloging": "Cataloging projects",
         "cataloging_submenu": {
-            "cataloging/niedermeyer": "Louis Niedermeyer",
             "cataloging/bern-bb": "Burgerbibliothek Bern",
             "cataloging/frey-gryn": "Frey-Gryn Library",
             "cataloging/snb": "Swiss National Library",
