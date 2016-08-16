@@ -46,7 +46,6 @@ menu:
           - id: infrastructure/onstage-gc
           - id: infrastructure/kapellmeisterbuch
           - id: infrastructure/mei
-          - id: infrastructure/psmd
           - id: infrastructure/communication
           - id: past-infrastructure-projects
     - id: links
