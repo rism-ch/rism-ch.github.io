@@ -19,7 +19,7 @@
         },
         "cataloging": "Katalogisierungsprojekte",
         "cataloging_submenu": {
-            "cataloging/niedermeyer": "Louis Niedermeyer",
+            "cataloging/reichel": "Adolf Reichel",
             "cataloging/bern-bb": "Burgerbibliothek Bern",
             "cataloging/frey-gryn": "Frey-Grynäum",
             "cataloging/snb": "Nationalbibliothek",
@@ -29,7 +29,6 @@
             "cataloging/sarnen": "Frauenkloster Sarnen",
             "cataloging/repertorium": "Repertorium",
             "cataloging/bcu-lausanne": "BCU Lausanne",
-            "cataloging/reichel": "Adolf Reichel",
             "past-cataloging-projects": "Abgeschlossene Projekte"
         },
         "infrastructure": "Infrastrukturprojekte",
