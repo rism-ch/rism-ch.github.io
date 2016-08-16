@@ -18,7 +18,7 @@
             "central-redaction": "RISM Zentralredaktion"
         },
         "cataloging": "Katalogisierungsprojekte",
-        "cataloging_submenu":
+        "cataloging_submenu": {
             "cataloging/bern-bb": "Burgerbibliothek Bern",
             "cataloging/frey-gryn": "Frey-Grynäum",
             "cataloging/snb": "Nationalbibliothek",
