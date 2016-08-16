@@ -33,7 +33,6 @@ menu:
       submenu:
           - id: cataloging/reichel
           - id: cataloging/bcu-lausanne
-          - id: cataloging/niedermeyer
           - id: cataloging/snb
           - id: cataloging/zhb-lu
           - id: cataloging/sarnen
