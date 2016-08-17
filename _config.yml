@@ -43,7 +43,6 @@ menu:
     - id: infrastructure
       submenu:
           - id: infrastructure/muscat
-          - id: infrastructure/onstage-gc
           - id: infrastructure/kapellmeisterbuch
           - id: infrastructure/mei
           - id: infrastructure/communication
