@@ -41,7 +41,7 @@ menu:
           - id: past-cataloging-projects
     - id: infrastructure
       submenu:
-            id: infrastructure/onstage-fambg
+            id: infrastructure/onstage-famb
           - id: infrastructure/muscat
           - id: infrastructure/mei
           - id: infrastructure/communication
