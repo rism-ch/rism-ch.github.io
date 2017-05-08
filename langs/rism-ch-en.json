@@ -32,7 +32,6 @@
         },
         "infrastructure": "Infrastructure projects",
         "infrastructure_submenu": {
-            "infrastructure/onstage-famb": "OnStage - Freunde Alter Musik Basel",
             "infrastructure/muscat": "Muscat",
             "infrastructure/mei": "MEI",
             "infrastructure/kapellmeisterbuch": "The 'Kapellmeisterbuch'",
