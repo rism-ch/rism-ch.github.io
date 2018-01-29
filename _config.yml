@@ -41,7 +41,7 @@ menu:
     - id: infrastructure
       submenu:
           - id: infrastructure/muscat
-          - id: infrastructure/digital musical unicat
+          - id: infrastructure/digital music unicat in switzerland
           - id: infrastructure/mei
           - id: infrastructure/communication
           - id: past-infrastructure-projects
