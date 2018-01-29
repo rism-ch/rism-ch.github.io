@@ -40,7 +40,7 @@ menu:
           - id: past-cataloging-projects
     - id: infrastructure
       submenu:
-          - id: infrastructure/digital music unicat in switzerland
+          - id: infrastructure/digital music unica in switzerland
           - id: infrastructure/muscat
           - id: infrastructure/mei
           - id: infrastructure/communication
