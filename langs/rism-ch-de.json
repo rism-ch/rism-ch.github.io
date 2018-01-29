@@ -31,8 +31,8 @@
         },
         "infrastructure": "Infrastrukturprojekte",
         "infrastructure_submenu": {
-            "infrastructure/muscat": "Muscat",
             "infrastructure/muscat": "Digital music unicat in Switzerland",
+            "infrastructure/muscat": "Muscat",
             "infrastructure/mei": "MEI",
             "infrastructure/kapellmeisterbuch": "Das 'Kapellmeisterbuch'",
             "infrastructure/psmd": "Printed Sacred Music",
