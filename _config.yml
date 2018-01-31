@@ -31,7 +31,6 @@ menu:
             blank: true
     - id: cataloging
       submenu:
-          - id: cataloging/reichel
           - id: cataloging/snb
           - id: cataloging/zhb-lu
           - id: cataloging/frey-gryn
