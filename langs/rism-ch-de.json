@@ -20,6 +20,7 @@
         "cataloging": "Katalogisierungsprojekte",
         "cataloging_submenu": {
             "cataloging/reichel": "Adolf Reichel",
+            "cataloging/bcu-fribourg": "BCU Fribourg",
             "cataloging/bern-bb": "Burgerbibliothek Bern",
             "cataloging/frey-gryn": "Frey-Grynäum",
             "cataloging/snb": "Nationalbibliothek",
