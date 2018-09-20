@@ -32,6 +32,7 @@ menu:
     - id: cataloging
       submenu:
           - id: cataloging/snb
+          - id: cataloging/bcu-fribourg
           - id: cataloging/zhb-lu
           - id: cataloging/frey-gryn
           - id: cataloging/repertorium
