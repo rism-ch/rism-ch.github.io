@@ -12,6 +12,18 @@ redirect_from:
 
 <h4></h4><!-- for alignment -->
 <div class="row hidden-xs">
+    <div class="carousel-description col-sm-5 lang en">
+            {% include en/home-images.html %}
+    </div>
+    <div class="carousel-description col-sm-5 lang de">
+        {% include de/home-images.html %}
+    </div>
+    <div class="carousel-description col-sm-5 lang fr">
+        {% include fr/home-images.html %}
+    </div>
+    <div class="carousel-description col-sm-5 lang it">
+        {% include it/home-images.html %}
+    </div>
     <div class="col-sm-7">
         <div id="carousel" class="carousel slide" data-ride="carousel">
             <!-- Wrapper for slides -->
@@ -31,21 +43,13 @@ redirect_from:
             </div>
         </div>
     </div>
-    <div class="carousel-description col-sm-5 lang en">
-            {% include en/home-images.html %}
-    </div>
-    <div class="carousel-description col-sm-5 lang de">
-        {% include de/home-images.html %}
-    </div>
-    <div class="carousel-description col-sm-5 lang fr">
-        {% include fr/home-images.html %}
-    </div>
-    <div class="carousel-description col-sm-5 lang it">
-        {% include it/home-images.html %}
-    </div>
 </div>
 
-<div class="separator hidden-xs"></div>
+<div class="separator-bold hidden-xs"></div>
+
+<div class="hidden-xs" style="float: left; margin: 0px 30px 10px 0px;">
+    <a href="http://muscat-project.org" target="_blank"><img src="/images/rism_ch/muscat-sm-0.5.png"></a>
+</div>
 
 <div class="lang en">
     {% include en/home.html %}

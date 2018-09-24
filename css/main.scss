@@ -142,6 +142,7 @@ div.secondary_links {
     }
     
     h3.news {
+        clear: both;
         border-top: 2px solid $gray30;
         margin-top: 20px;
         padding-top: 20px;
@@ -249,6 +250,12 @@ div.text-content {
 
 .separator {
     border-top: 1px solid $gray15;
+    margin-top: 20px;
+    padding-top: 25px;
+}
+
+.separator-bold {
+    border-top: 2px solid $gray30;
     margin-top: 20px;
     padding-top: 25px;
 }
