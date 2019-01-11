@@ -73,6 +73,7 @@ menu:
           - id: publication-list
     - id: cds
       submenu:
+          - id: cd-marenzio
           - id: cd-cazzati
           - id: cd-swiss-monasteries
     - id: faq

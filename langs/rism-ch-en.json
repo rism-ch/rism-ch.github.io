@@ -69,6 +69,7 @@
         },
         "cds": "CDs",
         "cds_submenu": {
+            "cd-marenzio": "Marenzio, Il Pastor Fido",
             "cd-cazzati": "Cazzati, Messa e Salmi",
             "cd-swiss-monasteries": "Swiss monasteries"
         },
