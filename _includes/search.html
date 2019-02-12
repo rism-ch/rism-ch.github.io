@@ -17,14 +17,14 @@
                         <input name="utf8" type="hidden" value="✓">
                         <input id="search_locale" name="locale" type="hidden" value="fr">
                     </div>
-                    <select class="search_field form-control" id="search_field" name="search_field" title="Targeted search options">
-                        {% for s in site.search_options %}
-                        <option value="{{ s[1] }}" data-localize="{{ s[0] }}">{{ s[0] }}</option>
-                        {% endfor %}
-                    </select>
                     <div class="input-group search-input-group">
+                        <select class="custom-select search-field" id="search_field" name="search_field" title="Targeted search options">
+                            {% for s in site.search_options %}
+                            <option value="{{ s[1] }}" data-localize="{{ s[0] }}">{{ s[0] }}</option>
+                            {% endfor %}
+                        </select>
                         <label for="q" class="sr-only">search for</label>
-                        <input class="search_q q form-control" id="q" name="q" data-localize="search_placeholder" placeholder="" type="text" value="">
+                        <input class="search-q q form-control" id="q" name="q" data-localize="search_placeholder" placeholder="" type="text" value="">
                         <span class="input-group-btn">
                             <button type="submit" class="btn btn-primary search-btn" id="search">
                                 <span class="submit-search-text" data-localize="search"></span>
