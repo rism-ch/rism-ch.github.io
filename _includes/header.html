@@ -1,36 +1,36 @@
 <nav id="header-navbar" class="navbar navbar-expand-md navbar-dark navbar-inverse topbar" role="navigation">
-    <div class="container">
+  <div class="container">
 
-      <div class="mb-0">
-        <div class="slogan">
-          <a href="/">
-            <div class="d-none d-lg-block">
-              <span class="slogan-top">Répertoire International des Sources Musicales</span><br />
-              <span class="slogan-bottom">Schweiz - Suisse - Svizzera - Switzerland</span>
-            </div>
-            <div class="d-lg-none">
-              <img src="/images/logo3.png">
-            </div>
-          </a>
-        </div>
+    <div class="mb-0">
+      <div class="slogan">
+        <a href="/">
+          <div class="d-none d-lg-block">
+            <span class="slogan-top">Répertoire International des Sources Musicales</span><br />
+            <span class="slogan-bottom">Schweiz - Suisse - Svizzera - Switzerland</span>
+          </div>
+          <div class="d-lg-none">
+            <img src="/images/logo3.png">
+          </div>
+        </a>
       </div>
+    </div>
 
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#user-util-collapse" aria-controls="user-util-collapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#user-util-collapse" aria-controls="user-util-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
     
     <div class="collapse navbar-collapse justify-content-md-end" id="user-util-collapse">
-            <ul class="navbar-nav">
-                {% for s in site.top_menu %}
-                    {% capture link %}{{ site.baseurl }}/{{ s.id }}.html{% endcapture %}
-                    {% if s.url.size > 0 %}
-                        {% capture link %}{{ s.url }}{% endcapture %}
-                    {% endif %}
-                    <li class="nav-item">
-                        <a data-localize="top_menu.{{ s.id }}" class="{% if s.localize %}localized-link{% endif %} nav-link" href="{{ link }}">&nbsp;</a>
-                    </li>
-                {% endfor %}
-            </ul>
+      <ul class="navbar-nav">
+        {% for s in site.top_menu %}
+        {% capture link %}{{ site.baseurl }}/{{ s.id }}.html{% endcapture %}
+        {% if s.url.size > 0 %}
+        {% capture link %}{{ s.url }}{% endcapture %}
+        {% endif %}
+        <li class="nav-item">
+          <a data-localize="top_menu.{{ s.id }}" class="{% if s.localize %}localized-link{% endif %} nav-link" href="{{ link }}">&nbsp;</a>
+        </li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 </nav>
