@@ -82,11 +82,12 @@ redirect_from:
         {% if post.custom_url %}
             {% assign link = post.custom_url %}
         {% endif %}
-        {{ page.custom_url }}
+        {% unless post.no_url %}
         <p class="lang en news-more"><a href="{{ link }}">read more ...</a></p>
         <p class="lang de news-more"><a href="{{ link }}">mehr lesen ...</a></p>
         <p class="lang fr news-more"><a href="{{ link }}">en savoir plus ...</a></p>
         <p class="lang it news-more"><a href="{{ link }}">leggi tutto ...</a></p>
+        {% endunless %}
         <div style="clear: both;"></div>
     </div>
 {% endfor %}
