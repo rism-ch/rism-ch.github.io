@@ -5,6 +5,12 @@
 
     <title>{% if page.title and page.post != true %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
+
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:url" content="http://rism-ch.org" />
+    <meta property="og:title" content="RISM Switzerland" />
+    <meta property="og:description" content="Swiss Office of the RISM (Répertoire International des Sources Musicales)" />
+    <meta property="og:image" content="http://rism-ch.org/images/logo-large-ch.png" />
     
     <link href="{{ site.baseurl }}/favicon.ico" rel="shortcut icon">
     <link href="{{ site.baseurl }}/assets/application.css" media="screen" rel="stylesheet">
